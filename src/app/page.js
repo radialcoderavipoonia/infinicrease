@@ -12,7 +12,7 @@ import BackToTop from "@/components/common/BackToTop";
 export default function Home() {
   return (
     <>
-      <BackToTop />
+      <BackToTop /> 
       <Hero />
       <PumpFish />
       <Sell />
