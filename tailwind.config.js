@@ -14,7 +14,7 @@ module.exports = {
         Nunito: ["Nunito", "sans-serif"],
         Orbitron: ["Orbitron", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
-        NoFlickingThanks: ["Montserrat", "sans-serif"],
+        NoFlickingThanks: ["NoFlickingThanks", "sans-serif"],
       },
       fontSize: {
         base: "16px",
