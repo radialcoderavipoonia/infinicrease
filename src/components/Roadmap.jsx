@@ -15,30 +15,35 @@ const Roadmap = () => {
               width={907}
               className="lg:block hidden"
               src="/assets/images/roadmap/roadmap_curve_line.webp"
+              alt="rodmap curve line"
             />
             <Image
               height={171}
               width={119}
               className="absolute xl:top-[-33%] xl:left-[6%] md:w-[119px] lg:top-[-32%] lg:left-0 md:top-[-15%] md:left-[4.3%] left-[6.4%] top-[-14%] md:h-[171px] sm:w-[99px] sm:h-[141px] sm:block hidden"
               src="/assets/images/roadmap/roadmap_number_one.webp"
+              alt="roadmap number one"
             />
             <Image
               height={170}
               width={119}
               className="absolute xl:top-[-22%] xl:left-[50%] lg:left-[50%] lg:top-[-22%] md:top-[16%] md:left-[4.3%] top-[20%] left-[6.4%] md:w-[119px] md:h-[171px] sm:w-[99px] sm:h-[141px] sm:block hidden"
               src="/assets/images/roadmap/roadmap_number_two.webp"
+              alt="roadmap number two"
             />
             <Image
               height={194}
               width={119}
               className="absolute xl:top-[45%] xl:left-[39%] lg:top-[46%] lg:left-[39%] md:top-[42%] md:left-[4.3%] top-[47%] left-[6.4%] md:w-[119px] md:h-[194px] sm:w-[99px] sm:h-[161px] sm:block hidden"
               src="/assets/images/roadmap/roadmap_number_three.webp"
+              alt="roadmap number three"
             />
             <Image
               height={214}
               width={154}
               className="absolute xl:top-[57%] xl:left-[83%] lg:top-[57%] lg:left-[88%] md:top-[68%] md:left-[4.3%] top-[70%] left-[6.4%] xl:w-[154px] xl:h-[214px] lg:h-[214px] lg:w-[154px] md:w-[119px] md:h-[174px] sm:w-[99px] sm:h-[141px] sm:block hidden"
               src="/assets/images/roadmap/roadmap_number_four.webp"
+              alt="roadmap number four"
             />
             <div className="flex justify-between items-start w-full lg:w-[unset]">
               <div className="h-[83%] md:mt-8 mt-4 ms-20 w-[8px] bg-red-500 lg:hidden sm:block hidden"></div>
@@ -140,7 +145,8 @@ const Roadmap = () => {
         height={200}
         width={1440}
         className="w-full h-[200px] absolute left-0 bottom-0"
-        src="/assets/images/background/footer_gradient.webp"
+              src="/assets/images/background/footer_gradient.webp"
+              alt="footer gardient bg"
       />
     </div>
   );

@@ -18,24 +18,28 @@ const Footer = () => {
             width={269}
             className=""
             src="/assets/images/footerPress/market_watch.webp"
+            alt="market watch"
           />
           <Image
             height={132}
             width={269}
             className=""
             src="/assets/images/footerPress/benzinga.webp"
+            alt="benzinga"
           />
           <Image
             height={132}
             width={269}
             className=""
             src="/assets/images/footerPress/journal.webp"
+            alt="journal"
           />
           <Image
             height={132}
             width={269}
             className=""
             src="/assets/images/footerPress/yahoo.webp"
+            alt="yahoo"
           />
         </div>
         <div className="pt-44 mt-2 flex justify-center items-center gap-[10px]">
