@@ -58,6 +58,27 @@
     background: radial-gradient(
       92.37% 384% at 8.55% 2.94%,
       #fe7115 0%,
+      #ffa901 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .linear_color2 {
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fd4424 30%,
+      #ffad00 70%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .get_card span {
+    @apply relative after:absolute after:content-[''] after:w-full after:bg-gradient-to-r after:from-pumpkinOrange after:to-YellowOrange after:start-0 after:h-[2px] after:bottom-0;
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fe7115 0%,
       #ffad00 100%
     );
     -webkit-background-clip: text;
@@ -97,4 +118,7 @@
 
 body {
   background-color: #000942;
+}
+.bg_100 {
+  background-size: 100% 100%;
 }
