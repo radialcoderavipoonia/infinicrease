@@ -1,4 +1,5 @@
 import React from "react";
+import { getInf } from "./common/Helper";
 
 const GetInf = () => {
   return (
@@ -7,16 +8,22 @@ const GetInf = () => {
         <span className=" linear_color">How to get</span> INF
       </p>
       <div className=" flex flex-wrap">
-        <div className=" w-3/12 px-3">
-          <div className=" pt-[74px] half-a-border-on-top pb-[53px] px-5 bg_100 bg-no-repeat bg-getCard get_card hover:translate-y-[-16px] transition-all ease-in-out duration-150">
-            <p className=" linear_color font-Nunito font-extrabold text-3xl text-center leading-[35px] mb-[14px]">
-              Step 1
-            </p>
-            <p className=" font-Montserrat font-semibold text-xl text-center text-cyanBlack leading-[120%]">
-              Download <span>Trust</span> wallet
-            </p>
-          </div>
-        </div>
+        {getInf.map((value, index) => {
+          return (
+            <div className=" w-3/12 px-3" key={index}>
+              <div className=" pt-[74px] half-a-border-on-top pb-[53px] px-4 bg_100 bg-no-repeat bg-getCard get_card hover:translate-y-[-16px] transition-all ease-in-out duration-150">
+                <p className=" linear_color font-Nunito font-extrabold text-3xl text-center leading-[35px] mb-[14px]">
+                  {value.title}
+                </p>
+                <p className=" font-Montserrat font-semibold text-xl text-center text-cyanBlack leading-[140%]">
+                  {/* Download <span>Trust</span> wallet */}
+                  {value.description} <span>{value.liner}</span>{" "}
+                  {value.descriptionLast}
+                </p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
