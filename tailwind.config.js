@@ -12,6 +12,8 @@ module.exports = {
         footer: "url('/assets/images/background/footer_bg.png')",
         byPump: "url('/assets/images/background/buy_pump.png')",
         getCard: "url('/assets/images/background/get_card.png')",
+        pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
+        stabilies: "url('/assets/images/background/stabilies-bg.webp')",
       },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],

@@ -27,7 +27,17 @@
     background: radial-gradient(
       92.37% 384% at 8.55% 2.94%,
       #fe7115 0%,
-      #ffad00 100%
+      #ffa901 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .linear_color2 {
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fd4424 30%,
+      #ffad00 70%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
