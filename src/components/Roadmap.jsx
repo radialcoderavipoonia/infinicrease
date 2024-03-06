@@ -3,12 +3,12 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div>
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
+    <div className="bg-roadmap bg-cover pb-8 relative">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20">
         <h2 className="text-center pt-16 linear_color font-Nunito font-black text-5xl pb-2">
           Roadmap
         </h2>
-        <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:py-40 sm:py-28 py-12 lg:mb-6">
+        <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:py-40 sm:py-28 py-12 ">
           <div className="flex justify-center relative">
             <Image
               height={478}
@@ -136,6 +136,12 @@ const Roadmap = () => {
           </div>
         </div>
       </div>
+      <Image
+        height={200}
+        width={1440}
+        className="w-full h-[200px] absolute left-0 bottom-0"
+        src="/assets/images/background/footer_gradient.png"
+      />
     </div>
   );
 };

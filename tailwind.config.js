@@ -14,6 +14,7 @@ module.exports = {
         getCard: "url('/assets/images/background/get_card.png')",
         pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
         stabilies: "url('/assets/images/background/stabilies-bg.webp')",
+        roadmap: "url('/assets/images/background/roadmap.png')",
       },
       boxShadow: {
         svg: "white 0px 0px 10px 2px",
