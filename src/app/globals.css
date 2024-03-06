@@ -7,6 +7,74 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Component styles */
+@layer components {
+  /* custom button */
+  .custom_button {
+    @apply py-[10px] px-[22px] rounded-[50px] text-white font-Montserrat font-medium text-base bg-gradient-to-r from-TorchRed to-YellowOrange;
+  }
+  /* Styles for mobile navigation links */
+  .mobile-nav-li {
+    @apply font-medium text-white tracking-[-0.38px] sm:text-[3vw] text-[4vw] hover:opacity-70 transition-all ease-in-out duration-200;
+  }
+
+  /* Styles for mobile navigation overlay */
+  .mobile-nav-overlay {
+    @apply fixed px-4 items-center justify-center lg:hidden bg-black lg:z-[-1] top-0 h-full flex flex-col pb-4 pt-[101px] transition-all duration-200 ease-in z-[100] w-full sm:max-w-[100%];
+  } /* liner color */
+
+  .linear_color {
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fe7115 0%,
+      #ffa901 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .linear_color2 {
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fd4424 30%,
+      #ffad00 70%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+/* Back to top button animation */
+.back_to_top {
+  -webkit-animation: top-btn infinite linear 2s;
+  animation: top-btn infinite linear 2s;
+}
+
+/* Keyframes for back to top button animation */
+@-webkit-keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
 body {
   background-color: #000942;
 }

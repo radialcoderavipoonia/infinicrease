@@ -4,18 +4,18 @@ import React from "react";
 const Genie = () => {
   return (
     <div className="bg-blue">
-      <div className="container xl:max-w-[1136px] xl:px-0 px-3 mx-auto">
+      <div className="container xl:max-w-[1136px] xl:px-0 px-3 mx-auto pt-[58px] pb-[127px]">
         <div className="grid sm:grid-cols-2 grid-cols-1 items-center gap-4">
           <div className="flex justify-center">
             <Image
               width={346}
               height={418}
-              src="/assets/images/genie/genie.png"
+              src="/assets/images/genie/genie.webp"
             />
           </div>
           <div className="flex flex-col">
             <h3 className="text-cyanBlack font-Nunito font-black text-5xl sm:text-start text-center">
-              The <span>Genie</span>
+              The <span className="linear_color2">Genie</span>
             </h3>
             <p className="text-white opacity-80 font-Montserrat font-normal text-base pt-4 sm:max-w-[535px] sm:text-start text-center">
               The Genie is a wallet that collects fees and at random times is
