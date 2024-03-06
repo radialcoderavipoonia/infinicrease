@@ -68,3 +68,106 @@
 body {
   background-color: #000942;
 }
+/* roadmap  */
+.roadmap_first_number_position {
+  top: -33%;
+  left: 6%;
+}
+.roadmap_second_number_position {
+  top: -22%;
+  left: 50%;
+}
+.roadmap_third_number_position {
+  top: 45%;
+  left: 39%;
+}
+.roadmap_four_number_position {
+  top: 57%;
+  right: 4%;
+}
+.phase_one_position {
+  left: 1%;
+  top: 10%;
+}
+.phase_two_position {
+  left: 60%;
+  top: 8%;
+}
+.phase_three_position {
+  left: 32%;
+  top: 95%;
+}
+.phase_four_position {
+  right: 4%;
+  top: 102%;
+}
+@media (max-width: 1279.98px) {
+  .roadmap_first_number_position {
+    top: -32%;
+    left: 0%;
+  }
+  .roadmap_third_number_position {
+    top: 46%;
+  }
+  .roadmap_four_number_position {
+    top: 57%;
+    right: -3%;
+  }
+  .phase_two_position {
+    left: 62%;
+  }
+}
+@media (max-width: 1023.98px) {
+  .roadmap_first_number_position {
+    top: -15%;
+    left: 4.3%;
+  }
+  .roadmap_second_number_position {
+    top: 16%;
+    left: 4.3%;
+  }
+  .roadmap_third_number_position {
+    top: 42%;
+    left: 4.3%;
+  }
+  .roadmap_four_number_position {
+    top: 68%;
+    left: 4.3%;
+  }
+}
+@media (max-width: 767.98px) {
+  .roadmap_first_number_position {
+    top: -14%;
+    left: 6.4%;
+  }
+  .roadmap_second_number_position {
+    top: 20%;
+    left: 6.4%;
+  }
+  .roadmap_third_number_position {
+    top: 47%;
+    left: 6.4%;
+  }
+  .roadmap_four_number_position {
+    top: 70%;
+    left: 6.4%;
+  }
+}
+@media (max-width: 639.98px) {
+  .roadmap_first_number_position {
+    top: -14%;
+    left: 6.4%;
+  }
+  .roadmap_second_number_position {
+    top: 20%;
+    left: 6.4%;
+  }
+  .roadmap_third_number_position {
+    top: 47%;
+    left: 6.4%;
+  }
+  .roadmap_four_number_position {
+    top: 70%;
+    left: 6.4%;
+  }
+}
