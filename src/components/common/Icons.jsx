@@ -109,3 +109,34 @@ export const Telegram = () => {
     </svg>
   );
 };
+export const GetArrow = () => {
+  return (
+    <svg
+      width="92"
+      height="24"
+      viewBox="0 0 92 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M91.4128 12.0244L71.4128 0.477408V23.5714L91.4128 12.0244ZM0.931641 14.0244H5.4557V10.0244H0.931641V14.0244ZM14.5038 14.0244H23.5519V10.0244H14.5038V14.0244ZM32.6001 14.0244H41.6482V10.0244H32.6001V14.0244ZM50.6963 14.0244H59.7444V10.0244H50.6963V14.0244ZM68.7925 14.0244H77.8407V10.0244H68.7925V14.0244Z"
+        fill="url(#paint0_linear_516_43570)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_516_43570"
+          x1="103.635"
+          y1="0.784427"
+          x2="101.607"
+          y2="-5.21457"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FC1435" />
+          <stop offset="0.390625" stop-color="#FD3A28" />
+          <stop offset="0.630208" stop-color="#FE8C0C" />
+          <stop offset="1" stop-color="#FFAD00" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
