@@ -10,7 +10,8 @@ module.exports = {
       backgroundImage: {
         hero: "url('/assets/images/background/hero.webp')",
         footer: "url('/assets/images/background/footer_bg.png')",
-      },
+        byPump: "url('/assets/images/background/buy_pump.png')",
+      }, 
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],
         Orbitron: ["Orbitron", "sans-serif"],
@@ -37,6 +38,9 @@ module.exports = {
         greyCloud: "#b6bab1",
         TorchRed: "#FC1435",
         YellowOrange: "#FFAD00",
+        pastelGray: "#CCCDD7",
+        blueZodiac: "#191F4D",
+        talishlavender: "#CCCFDF",
       },
     },
   },
