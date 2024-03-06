@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <BackToTop /> 
-      <Hero />
+      {/* <Hero /> */}
       <PumpFish />
       <Sell />
       <Stabilies />
