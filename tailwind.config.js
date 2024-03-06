@@ -8,9 +8,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/background/hero.webp')",
+        hero: "url('/assets/images/background/header.png')",
         footer: "url('/assets/images/background/footer_bg.png')",
         byPump: "url('/assets/images/background/buy_pump.png')",
+        getCard: "url('/assets/images/background/get_card.png')",
+        pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
+        stabilies: "url('/assets/images/background/stabilies-bg.webp')",
       },
       boxShadow: {
         svg: "white 0px 0px 10px 2px",
@@ -44,6 +47,7 @@ module.exports = {
         pastelGray: "#CCCDD7",
         blueZodiac: "#191F4D",
         talishlavender: "#CCCFDF",
+        pumpkinOrange: "#fe7115",
       },
     },
   },
