@@ -6,6 +6,7 @@ import Roadmap from "@/components/Roadmap";
 import Genie from "@/components/Genie";
 import PumpMode from "@/components/PumpMode";
 import Stabilies from "@/components/Stabilies";
+import Tokenomics from "@/components/Tokenomics";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <PumpMode />
       <Genie />
       <GetInf />
+      <Tokenomics />
       <Roadmap />
       <Footer />
     </>
