@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @font-face {
   font-family: "NoFlickingThanks";
   src: url(../../public/assets/font/NoFlickingThanks.ttf);
@@ -23,68 +24,68 @@
     @apply fixed px-4 items-center justify-center lg:hidden bg-[#000942] lg:z-[-1] top-0 h-full flex flex-col pb-4 pt-[101px] transition-all duration-200 ease-in z-[100] w-full sm:max-w-[100%];
   }
 }
-    /* Back to top button animation */
-    .back_to_top {
-      -webkit-animation: top-btn infinite linear 2s;
-      animation: top-btn infinite linear 2s;
-    }
-  
-    /* Keyframes for back to top button animation */
-    @-webkit-keyframes top-btn {
-      50% {
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-      }
-  
-      100% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-      }
-    }
-  
-    @keyframes top-btn {
-      50% {
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-      }
-  
-      100% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-      }
-    }
-  
-  .linear_color {
-    background: radial-gradient(
-      92.37% 384% at 8.55% 2.94%,
-      #fe7115 0%,
-      #ffa901 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+/* Back to top button animation */
+.back_to_top {
+  -webkit-animation: top-btn infinite linear 2s;
+  animation: top-btn infinite linear 2s;
+}
+
+/* Keyframes for back to top button animation */
+@-webkit-keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   }
-  .linear_color2 {
-    background: radial-gradient(
-      92.37% 384% at 8.55% 2.94%,
-      #fd4424 30%,
-      #ffad00 70%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
   }
-  .get_card span {
-    @apply relative after:absolute after:content-[''] after:w-full after:bg-gradient-to-r after:from-pumpkinOrange after:to-YellowOrange after:start-0 after:h-[2px] after:bottom-0;
-    background: radial-gradient(
-      92.37% 384% at 8.55% 2.94%,
-      #fe7115 0%,
-      #ffad00 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+}
+
+@keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.linear_color {
+  background: radial-gradient(
+    92.37% 384% at 8.55% 2.94%,
+    #fe7115 0%,
+    #ffa901 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.linear_color2 {
+  background: radial-gradient(
+    92.37% 384% at 8.55% 2.94%,
+    #fd4424 30%,
+    #ffad00 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.get_card span {
+  @apply relative after:absolute after:content-[''] after:w-full after:bg-gradient-to-r after:from-pumpkinOrange after:to-YellowOrange after:start-0 after:h-[2px] after:bottom-0;
+  background: radial-gradient(
+    92.37% 384% at 8.55% 2.94%,
+    #fe7115 0%,
+    #ffad00 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 /* Back to top button animation */
 .back_to_top {
   -webkit-animation: top-btn infinite linear 2s;
@@ -118,7 +119,25 @@
 
 body {
   background-color: #000942;
+  overflow-x: hidden;
 }
 .bg_100 {
   background-size: 100% 100%;
+}
+
+/* Frame 60 */
+.sell-button {
+  background: linear-gradient(
+    98.21deg,
+    rgba(91, 102, 174, 0.1) -10.06%,
+    rgba(186, 0, 0, 0.1) 109.38%
+  );
+  box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.gradient {
+  background: #ffad00;
+  opacity: 0.82;
+  filter: blur(185.238px);
 }
