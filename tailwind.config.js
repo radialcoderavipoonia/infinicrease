@@ -8,9 +8,29 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero: "url('/assets/images/background/hero.webp')",
+      },
+      fontFamily: {
+        Nunito: ["Nunito", "sans-serif"],
+        Orbitron: ["Orbitron", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+        NoFlickingThanks: ["Montserrat", "sans-serif"],
+      },
+      fontSize: {
+        base: "16px",
+        lg: "18px",
+        xl: "20px",
+        "2xl": "28px",
+        "3xl": "32px",
+        "4xl": "40px",
+        "5xl": "52px",
+        "7xl": "70px",
+      },
+      colors: {
+        cyanBlack: "#f9fbff",
+        languidLavender: "#cfcfe8",
+        tealishBlue: "#ccced8",
+        greyCloud: "#b6bab1",
       },
     },
   },
