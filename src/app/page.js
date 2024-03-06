@@ -7,10 +7,12 @@ import Genie from "@/components/Genie";
 import PumpMode from "@/components/PumpMode";
 import Stabilies from "@/components/Stabilies";
 import Sell from "@/components/Sell";
+import BackToTop from "@/components/common/BackToTop";
 
 export default function Home() {
   return (
     <>
+      <BackToTop />
       <Hero />
       <PumpFish />
       <Sell />
