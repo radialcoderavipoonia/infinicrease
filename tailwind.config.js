@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/assets/images/background/hero.webp')",
+        footer: "url('/assets/images/background/footer_bg.png')",
       },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],
@@ -25,6 +26,9 @@ module.exports = {
         "4xl": "40px",
         "5xl": "52px",
         "7xl": "70px",
+      },
+      backgroung: {
+        "bg-100": "100% 100%",
       },
       colors: {
         cyanBlack: "#f9fbff",

@@ -3,7 +3,7 @@ import { Telegram, Twitter } from "./common/Icons";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className="bg-footer bg-no-repeat bg-cover">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
         <h2 className="pt-8 text-white text-center font-black font-Nunito text-5xl">
           Press
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-[1px] bg-white mt-6 opacity-50"></div>
-      <p className="pt-4 pb-6 text-center text-white font-Montserrat fw-mediumn text-base opacity-50">Copyright@2022</p>
+      <p className="pt-4 pb-6 text-center text-white font-Montserrat font-mediumn text-base opacity-50">Copyright@2022</p>
     </div>
   );
 };
