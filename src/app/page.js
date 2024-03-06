@@ -6,12 +6,14 @@ import Roadmap from "@/components/Roadmap";
 import Genie from "@/components/Genie";
 import PumpMode from "@/components/PumpMode";
 import Stabilies from "@/components/Stabilies";
+import Sell from "@/components/Sell";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <PumpFish />
+      <Sell />
       <Stabilies />
       <PumpMode />
       <Genie />
