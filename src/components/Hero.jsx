@@ -3,6 +3,7 @@ import NavBar from "./navBar/NavBar";
 import CustomButton from "./common/CustomButton";
 import Image from "next/image";
 import {
+  EqualVector,
   Equalizerbot,
   GenieIcon,
   PlusVector,
@@ -13,7 +14,7 @@ const Hero = () => {
   return (
     <>
       <div className=" bg-hero bg-cover bg-no-repeat overflow-hidden">
-        {/* <NavBar /> */}
+        <NavBar />
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 mt-[109px] pb-[102px]">
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative items-center">
             <div className=" lg:w-7/12 relative z-50 pt-[70px] sm:pt-[100px] lg:pt-[150px]">
@@ -37,22 +38,28 @@ const Hero = () => {
                   <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
                     Equalizer bot
                   </p>
-                  <div className=" absolute">
+                  <div className=" absolute right-[9px] z-20 hidden sm:block">
                     <PlusVector />
                   </div>
                 </div>
-                <div className="Equalizerbot w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-28px]">
+                <div className="Equalizerbot my-5 sm:my-0 relative z-10 w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-28px]">
                   <WhaleWallet />
                   <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
                     Whale wallet
                   </p>
+                  <div className=" absolute right-[14px] z-40 hidden sm:block">
+                    <PlusVector />
+                  </div>
                 </div>
 
-                <div className="Genie w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-60px]">
+                <div className="Genie relative z-10 w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-60px]">
                   <GenieIcon />
                   <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
                     Genie
                   </p>
+                  <div className=" absolute right-[-14px] z-30 hidden sm:block">
+                    <EqualVector />
+                  </div>
                 </div>
                 <Image
                   loading="lazy"
@@ -60,7 +67,7 @@ const Hero = () => {
                   height={106}
                   src="/assets/images/hero/infinicrease_hero_logo.svg"
                   alt="infinicrease_hero_logo"
-                  className=" md:ms-3 sm:translate-x-[-65px] mx-auto w-full max-w-[375px] sm:max-w-[160px]"
+                  className=" md:ms-3 sm:translate-x-[-65px] mx-auto w-full max-w-[375px] sm:max-w-[160px] mt-5 sm:mt-0"
                 />
               </div>
             </div>
@@ -80,7 +87,7 @@ const Hero = () => {
                 height={252}
                 src="/assets/images/hero/hand.png"
                 alt="page_logo"
-                className="hand_ball absolute w-full sm:w-[80%] md:w-[74%] bottom-[69%] sm:bottom-[72%] md:bottom-[56%] right-0 sm:right-[6%] md:right-[8%] lg:right-[-4%] lg:bottom-0 lg:w-[51%] xl:right-[-12%] xl:bottom-[-80px] hand xl:w-[60%] z-[1]"
+                className="hand_ball absolute w-full sm:w-[80%] md:w-[74%] bottom-[69%] sm:bottom-[72%] md:bottom-[56%] right-0 sm:right-[6%] md:right-[8%] lg:right-[-4%] lg:bottom-0 lg:w-[51%] xl:right-[-12%] xl:bottom-[-80px] hand xl:w-[60%] z-[5]"
               />
             </div>
           </div>

@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { NavLinks } from "../common/Helper";
+import CustomButton from "../common/CustomButton";
+import { GenieIcon } from "../common/Icons";
 
 // Define MobileNav component
 const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
@@ -50,7 +52,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
         }`}
       >
         <div className=" flex justify-center">
-          <div className="flex flex-col text-white gap-9 xl:gap-5 justify-center items-start w-full">
+          <div className="flex flex-col text-white gap-9 xl:gap-5 justify-center items-center w-full">
             {NavLinks.map((value, index) => {
               return (
                 <div key={index} className="relative">
@@ -63,6 +65,9 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
                 </div>
               );
             })}
+            <div>
+              <CustomButton type="subimt" content="Contract Details" />
+            </div>
           </div>
         </div>
       </div>

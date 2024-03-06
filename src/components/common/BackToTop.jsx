@@ -29,7 +29,7 @@ const BackToTop = () => {
 
   return (
     <button
-      className={` back_to_top fixed right-6 flex items-center justify-center bottom-6 p-3  bg-main  text-white rounded-full !z-50 ${
+      className={` back_to_top fixed right-6 flex items-center justify-center bottom-6 p-3 bg-gradient-to-r from-TorchRed to-YellowOrange text-white rounded-full !z-50 ${
         isVisible ? "block" : "hidden"
       }`}
       onClick={scrollToTop}
