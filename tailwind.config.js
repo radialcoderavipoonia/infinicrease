@@ -31,6 +31,8 @@ module.exports = {
         languidLavender: "#cfcfe8",
         tealishBlue: "#ccced8",
         greyCloud: "#b6bab1",
+        TorchRed: "#FC1435",
+        YellowOrange: "#FFAD00",
       },
     },
   },

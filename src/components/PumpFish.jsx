@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import CustomButton from "./common/CustomButton";
 
 const PumpFish = () => {
   return (
@@ -13,6 +14,7 @@ const PumpFish = () => {
             alt="pump fish"
           />
         </div>
+        <CustomButton content="sdfgv" />
       </div>
     </div>
   );
