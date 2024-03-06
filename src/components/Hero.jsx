@@ -42,12 +42,12 @@ const Hero = () => {
                     <PlusVector />
                   </div>
                 </div>
-                <div className="Equalizerbot my-5 sm:my-0 relative z-10 w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-28px]">
+                <div className="Equalizerbot my-5 sm:my-0 relative z-[5] w-full rounded-lg sm:w-[188px] h-[149px] flex justify-center items-center flex-col sm:translate-x-[-28px]">
                   <WhaleWallet />
                   <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
                     Whale wallet
                   </p>
-                  <div className=" absolute right-[14px] z-40 hidden sm:block">
+                  <div className=" absolute right-[14px] z-50 hidden sm:block">
                     <PlusVector />
                   </div>
                 </div>
