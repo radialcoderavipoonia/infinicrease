@@ -3,7 +3,7 @@ import React from "react";
 const PumpMode = () => {
   return (
     <div className="bg-pumpMode bg-cover">
-      <div className="pt-[190px] pb-[210px]">
+      <div className="xl:pt-[190px] lg:py-28 py-20 xl:pb-[210px]">
         <h3 className="linear_color2 font-Nunito font-black text-5xl text-center">
           PUMP MODE
         </h3>
