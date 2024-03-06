@@ -14,7 +14,12 @@ const PumpFish = () => {
             alt="pump fish"
           />
         </div>
-        <CustomButton content="sdfgv" />
+        <div className=" w-6/12">
+          <p className=" font-Nunito font-black text-cyanBlack text-5xl leading-[110%]">
+            The More You Buy, The More it{" "}
+            <span className=" linear_color">Pumps!</span>
+          </p>
+        </div>
       </div>
     </div>
   );

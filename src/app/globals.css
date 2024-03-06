@@ -21,6 +21,17 @@
   /* Styles for mobile navigation overlay */
   .mobile-nav-overlay {
     @apply fixed px-4 items-center justify-center lg:hidden bg-black lg:z-[-1] top-0 h-full flex flex-col pb-4 pt-[101px] transition-all duration-200 ease-in z-[100] w-full sm:max-w-[100%];
+  } /* liner color */
+
+  .linear_color {
+    background: radial-gradient(
+      92.37% 384% at 8.55% 2.94%,
+      #fe7115 0%,
+      #ffad00 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
 /* Back to top button animation */
