@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <PumpFish />
+      {/* <PumpFish />
       <Stabilies />
       <PumpMode />
       <Genie />
       <GetInf />
       <Roadmap />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
