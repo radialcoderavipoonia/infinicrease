@@ -8,6 +8,7 @@ import PumpMode from "@/components/PumpMode";
 import Stabilies from "@/components/Stabilies";
 import Sell from "@/components/Sell";
 import BackToTop from "@/components/common/BackToTop";
+import Tokenomics from "@/components/Tokenomics";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <PumpMode />
       <Genie />
       <GetInf />
+      <Tokenomics />
       <Roadmap />
       <Footer />
     </>

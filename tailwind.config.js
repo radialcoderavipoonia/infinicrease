@@ -15,6 +15,8 @@ module.exports = {
         pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
         stabilies: "url('/assets/images/background/stabilies-bg.webp')",
         roadmap: "url('/assets/images/background/roadmap.webp')",
+        tokenShadow: "url('/assets/images/tokenomics/tokenomics.svg')",
+        tokenIcon: "url('/assets/images/tokenomics/token.svg')",
       },
       boxShadow: {
         svg: "white 0px 0px 10px 2px",
@@ -24,6 +26,7 @@ module.exports = {
         Orbitron: ["Orbitron", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
         NoFlickingThanks: ["NoFlickingThanks", "sans-serif"],
+        plusSans: ["Plus Jakarta Sans", "sans-serif"],
       },
       fontSize: {
         base: "16px",
@@ -49,6 +52,10 @@ module.exports = {
         blueZodiac: "#191F4D",
         talishlavender: "#CCCFDF",
         pumpkinOrange: "#fe7115",
+        gainsBoro: "#DDDDDD",
+        deepCove: "#0E1648",
+        greyGoose: "#CFD0DA",
+        purpleBlue: "#D1D0D7",
       },
     },
   },
