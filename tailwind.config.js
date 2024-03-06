@@ -11,7 +11,10 @@ module.exports = {
         hero: "url('/assets/images/background/hero.webp')",
         footer: "url('/assets/images/background/footer_bg.png')",
         byPump: "url('/assets/images/background/buy_pump.png')",
-      }, 
+      },
+      boxShadow: {
+        svg: "white 0px 0px 10px 2px",
+      },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],
         Orbitron: ["Orbitron", "sans-serif"],

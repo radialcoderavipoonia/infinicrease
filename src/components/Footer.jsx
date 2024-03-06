@@ -1,7 +1,11 @@
 import Image from "next/image";
 import { Telegram, Twitter } from "./common/Icons";
+import Link from "next/link";
 
 const Footer = () => {
+  // Get current year
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="bg-footer bg-no-repeat bg-cover">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
@@ -35,16 +39,26 @@ const Footer = () => {
           />
         </div>
         <div className="pt-44 mt-2 flex justify-center items-center gap-[10px]">
-          <span>
+          <Link
+            href="https://twitter.com/"
+            target="blank"
+            className="hover:scale-105 transition-all duration-300 ease-in-out rounded-[50%] hover:shadow-svg"
+          >
             <Twitter />
-          </span>
-          <span>
+          </Link>
+          <Link
+            href="https://www.telegram.com/"
+            target="blank"
+            className="hover:scale-105 transition-all duration-300 ease-in-out rounded-[50%] hover:shadow-svg"
+          >
             <Telegram />
-          </span>
+          </Link>
         </div>
       </div>
       <div className="w-full h-[1px] bg-white mt-6 opacity-50"></div>
-      <p className="pt-4 pb-6 text-center text-white font-Montserrat font-mediumn text-base opacity-50">Copyright@2022</p>
+      <p className="pt-4 pb-6 text-center text-white font-Montserrat font-mediumn text-base opacity-50">
+        Copyright@{currentYear}
+      </p>
     </div>
   );
 };
