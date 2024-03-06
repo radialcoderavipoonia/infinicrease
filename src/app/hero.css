@@ -5,3 +5,50 @@
     color: transparent;
     transition: all 300ms linear;
 }
+.hand {
+    animation-name: hand;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes hand {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.hand-ball {
+    animation-name: hand-ball;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes hand-ball {
+    0% {
+        transform: translateY(-90px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+.Equalizerbot{
+    background: linear-gradient(122.55deg, rgba(0, 19, 145, 0.4) 29.8%, rgba(1, 14, 104, 0) 95%);
+    border: 0.8px solid;
+    
+        border-image-source: linear-gradient(275.48deg, rgba(0, 176, 235, 0) 41.98%, #006BE0 94.08%);
+}
+.Genie{
+    background: linear-gradient(122.55deg, rgba(1, 14, 104, 0) 0.63%, rgba(0, 19, 145, 0.4) 95%);
+    border: 0.8px solid;
+    
+        border-image-source: linear-gradient(275.48deg, #006BE0 41.98%, rgba(0, 176, 235, 0) 94.08%);
+}
