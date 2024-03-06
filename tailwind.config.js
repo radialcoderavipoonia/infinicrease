@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/assets/images/background/hero.webp')",
         byPump: "url('/assets/images/background/buy_pump.png')",
+        getCard: "url('/assets/images/background/get_card.png')",
       },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],
@@ -37,6 +38,7 @@ module.exports = {
         pastelGray: "#CCCDD7",
         blueZodiac: "#191F4D",
         talishlavender: "#CCCFDF",
+        pumpkinOrange: "#fe7115",
       },
     },
   },
