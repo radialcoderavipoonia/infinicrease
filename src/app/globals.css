@@ -20,7 +20,6 @@
 
   /* Styles for mobile navigation overlay */
   .mobile-nav-overlay {
-<<<<<<< HEAD
     @apply fixed px-4 items-center justify-center lg:hidden bg-[#000942] lg:z-[-1] top-0 h-full flex flex-col pb-4 pt-[101px] transition-all duration-200 ease-in z-[100] w-full sm:max-w-[100%];
   }}
     /* Back to top button animation */
@@ -53,11 +52,7 @@
         transform: translateY(0px);
       }
     }
-    
-=======
-    @apply fixed px-4 items-center justify-center lg:hidden bg-black lg:z-[-1] top-0 h-full flex flex-col pb-4 pt-[101px] transition-all duration-200 ease-in z-[100] w-full sm:max-w-[100%];
-  } /* liner color */
-
+  
   .linear_color {
     background: radial-gradient(
       92.37% 384% at 8.55% 2.94%,
@@ -100,7 +95,6 @@
   }
 }
 
->>>>>>> eecc503cc868cda6421366d95ba8824d5bc43556
 body {
   background-color: #000942;
 }
