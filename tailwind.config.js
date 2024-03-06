@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/assets/images/background/header.png')",
-        footer: "url('/assets/images/background/footer_bg.png')",
+        footer: "url('/assets/images/background/footer_bg.webp')",
         byPump: "url('/assets/images/background/buy_pump.png')",
         getCard: "url('/assets/images/background/get_card.png')",
         pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
         stabilies: "url('/assets/images/background/stabilies-bg.webp')",
-        roadmap: "url('/assets/images/background/roadmap.png')",
+        roadmap: "url('/assets/images/background/roadmap.webp')",
       },
       boxShadow: {
         svg: "white 0px 0px 10px 2px",
