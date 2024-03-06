@@ -11,7 +11,7 @@ import Sell from "@/components/Sell";
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <PumpFish />
       <Sell />
       <Stabilies />
