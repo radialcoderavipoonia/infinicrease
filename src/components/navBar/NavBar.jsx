@@ -55,7 +55,10 @@ const NavBar = () => {
               {NavLinks.map((value, index) => {
                 return (
                   <div key={index} className="relative">
-                    <Link href="" className="">
+                    <Link
+                      href="#"
+                      className=" font-Montserrat text-base text-cyanBlack nav_text_hover transition-all duration-300 ease-linear"
+                    >
                       {value.title}
                     </Link>
                   </div>

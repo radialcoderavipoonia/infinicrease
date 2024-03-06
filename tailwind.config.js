@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/background/hero.webp')",
+        hero: "url('/assets/images/background/header.png')",
       },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],

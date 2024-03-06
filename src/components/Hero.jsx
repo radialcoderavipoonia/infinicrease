@@ -4,7 +4,7 @@ import NavBar from "./navBar/NavBar";
 const Hero = () => {
   return (
     <>
-      <div className="">
+      <div className=" bg-hero bg-cover bg-no-repeat">
         <NavBar />
       </div>
     </>
