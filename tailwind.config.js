@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/background/hero.webp')",
+        hero: "url('/assets/images/background/header.png')",
         footer: "url('/assets/images/background/footer_bg.png')",
         byPump: "url('/assets/images/background/buy_pump.png')",
         getCard: "url('/assets/images/background/get_card.png')",

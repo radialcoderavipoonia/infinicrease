@@ -10,14 +10,14 @@ import Stabilies from "@/components/Stabilies";
 export default function Home() {
   return (
     <>
-      <PumpFish />
-      <GetInf />
       <Hero />
-      <Roadmap />
-      <Footer />
+      <PumpFish />
       <Stabilies />
       <PumpMode />
       <Genie />
+      <GetInf />
+      <Roadmap />
+      <Footer />
     </>
   );
 }
