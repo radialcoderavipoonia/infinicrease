@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/assets/images/background/hero.webp')",
+        byPump: "url('/assets/images/background/buy_pump.png')",
       },
       fontFamily: {
         Nunito: ["Nunito", "sans-serif"],
@@ -33,6 +34,9 @@ module.exports = {
         greyCloud: "#b6bab1",
         TorchRed: "#FC1435",
         YellowOrange: "#FFAD00",
+        pastelGray: "#CCCDD7",
+        blueZodiac: "#191F4D",
+        talishlavender: "#CCCFDF",
       },
     },
   },
