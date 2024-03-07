@@ -40,12 +40,7 @@
         transform: translateY(20px);
     }
 }
-.Equalizerbot{
-    border: 0.8px solid;
-    
-        border-image-source: linear-gradient(275.48deg, rgba(0, 176, 235, 0) 41.98%, #006BE0 94.08%);
-background: linear-gradient(122.55deg, rgba(0, 19, 145, 0.4) 29.8%, rgba(1, 14, 104, 0) 95%);
-}
+
 .Genie{
     background: linear-gradient(122.55deg, rgba(1, 14, 104, 0) 0.63%, rgba(0, 19, 145, 0.4) 95%);
     border: 0.8px solid;
