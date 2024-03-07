@@ -36,7 +36,7 @@ const NavBar = () => {
 
       {/* Navigation bar */}
       <nav className="bg-[rgba(249,_251,_255,_0.05)] pt-6 pb-5">
-        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0">
+        <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0">
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="mt-0">
@@ -59,7 +59,7 @@ const NavBar = () => {
                     <div key={index} className="relative">
                       <Link
                         href="#"
-                        className=" font-Montserrat text-base text-cyanBlack nav_text_hover transition-all duration-300 ease-linear"
+                        className=" font-Montserrat text-base text-cyanBlack relative nav_text_hover transition-all duration-300 ease-linear"
                       >
                         {value.title}
                       </Link>
@@ -69,7 +69,9 @@ const NavBar = () => {
               </div>
               <div className=" flex items-center gap-2">
                 <CustomButton type="subimt" content="Contract Details" />
-                <GenieNav />
+                <div className=" cursor-pointer">
+                  <GenieNav />
+                </div>
               </div>
             </div>
             {/* Button */}
