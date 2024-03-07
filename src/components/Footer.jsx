@@ -16,28 +16,28 @@ const Footer = () => {
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[150px]"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/market_watch.webp"
             alt="market watch"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[150px]"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/benzinga.webp"
             alt="benzinga"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[150px]"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/journal.webp"
             alt="journal"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[150px]"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/yahoo.webp"
             alt="yahoo"
           />
