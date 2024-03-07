@@ -187,3 +187,17 @@ li::marker {
     background-size: 101% 101% !important;
   }
 }
+@media (max-width: 575.98px) {
+  .genie_bg_changed_sm {
+    border-image-source: linear-gradient(
+      275.48deg,
+      rgba(0, 176, 235, 0) 41.98%,
+      #006be0 94.08%
+    ) !important;
+    background: linear-gradient(
+      122.55deg,
+      rgba(0, 19, 145, 0.4) 29.8%,
+      rgba(1, 14, 104, 0) 95%
+    ) !important;
+  }
+}
