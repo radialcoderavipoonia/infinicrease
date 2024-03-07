@@ -145,8 +145,11 @@ body {
   opacity: 0.82;
   filter: blur(185.238px);
 }
+li::marker {
+  font-size: 10px; /* Set the desired font size for the marker */
+}
 @media (min-width: 1024px) {
   .footer_bg {
-    background-size: 100% 100% !important;
+    background-size: 101% 101% !important;
   }
 }

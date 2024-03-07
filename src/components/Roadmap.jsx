@@ -149,12 +149,14 @@ const Roadmap = () => {
         alt="footer gardient bg"
       />
       <Image
-        height={100}
-        width={1440}
-        className="w-full h-[200px] absolute left-0 top-[-50px] pointer-events-none"
-        src="/assets/images/background/tokenomics_gradient.png"
-        alt="tokenomics gardient bg"
+        height={512}
+        width={1046}
+        className="absolute right-[-33%] top-[17%] z-30 lg:block hidden pointer-events-none"
+        src="/assets/images/roadmap/right_shadow.png"
+        alt="roadmap right gradient"
       />
+
+      <div className="w-full bg-[#000942] h-full absolute left-0 top-[-50px] pointer-events-none"></div>
     </div>
   );
 };
