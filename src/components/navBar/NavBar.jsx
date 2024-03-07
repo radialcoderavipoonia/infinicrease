@@ -70,7 +70,8 @@ const NavBar = () => {
               <div className=" flex items-center gap-2">
                 <CustomButton type="subimt" content="Contract Details" />
                 <div className=" cursor-pointer">
-                  <GenieNav />
+                  <Link href="#genie">
+                   <GenieNav /></Link>
                 </div>
               </div>
             </div>
