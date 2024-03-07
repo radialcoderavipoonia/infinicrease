@@ -4,11 +4,11 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div className="bg-roadmap bg-cover lg:pb-8 relative">
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20 py-12 sm:py-16 md:py-24">
         <h2 className="text-center sm:pt-16 pt-4 linear_color font-Nunito leading-[110%] font-black xl:text-5xl sm:text-[45px] text-3xl sm:pb-2">
           Roadmap
         </h2>
-        <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:pb-40 md:pt-16 sm:pb-28 sm:pt-14 py-12 ">
+        <div className="lg:pt-52 lg:mt-2 lg:pb-64 py-12 sm:pb-12 md:pb-12 ">
           <div className="flex justify-center relative">
             <Image
               height={478}

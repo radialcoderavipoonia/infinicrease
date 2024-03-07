@@ -3,8 +3,8 @@ import React from "react";
 
 const Genie = () => {
   return (
-    <div className="container xl:max-w-[1136px] xl:px-0 px-3 mx-auto sm:pt-[58px] lg:pb-[127px] md:pb-24 sm:pb-16 py-12 relative">
-      <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute left-[-10%] sm:bottom-0 top-0"></div>
+    <div className="container xl:max-w-[1136px] xl:px-0 px-3 mx-auto sm:pt-[58px] lg:pb-[127px] py-12 sm:py-16 md:py-24 relative">
+      <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute left-[-10%] sm:bottom-0 top-0 pointer-events-none"></div>
       <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-4">
         <div className="flex justify-center">
           <Image

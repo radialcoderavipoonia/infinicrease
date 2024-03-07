@@ -13,7 +13,7 @@ const Tokenomics = () => {
         alt="side icon"
         className="max-w-[161px] absolute end-0 bottom-[10%] sm:block hidden"
       />
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto pb-[103px]">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto lg:pb-[103px] py-12 sm:py-16 md:py-24">
         <p className=" font-Nunito font-black linear_color leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-10 lg:pb-10 relative z-10">
           Tokenomics
         </p>
@@ -206,7 +206,7 @@ const Tokenomics = () => {
           </div>
         </div>
         {/* tax */}
-        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[100px] relative">
+        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[100px] relative z-10">
           <span className=" absolute end-[-15%]">
             <HalfBorder />
           </span>

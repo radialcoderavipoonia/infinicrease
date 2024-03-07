@@ -3,10 +3,10 @@ import React from "react";
 
 const Sell = () => {
   return (
-    <div className="relative overflow-hidden pt-[251px] pb-[241px]">
+    <div className="relative overflow-hidden lg:pt-[251px] lg:pb-[241px] py-12 sm:py-16 md:py-24">
       <div className=" w-full h-[150px] bg-[#000942]  blur-[10px] absolute bottom-[-110px] z-[1]"></div>
 
-      <div className=" w-full h-[150px] bg-[#000942] z-[1] blur-[50px] absolute bottom-[-73px] hidden md:block left-0 right-0"></div>
+      <div className=" w-full h-[150px] bg-[#000942] z-[1] blur-[50px] absolute bottom-[-73px] hidden md:block left-0 right-0 pointer-events-none"></div>
       <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute md:right-[15%] right-[50%] bottom-0"></div>
       <Image
         className="absolute left-0 top-0 md:w-[185px] md:h-20"
