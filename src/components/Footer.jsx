@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className="bg-footer bg-no-repeat footer_bg bg-cover bg-center" id="press">
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto py-12 sm:py-16 md:py-24">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto py-12 sm:py-16 md:py-24 lg:py-0">
         <h2 className=" text-white text-center font-black font-Nunito xl:text-5xl sm:text-[45px] lg:pt-5 text-3xl leading-[110%]">
           Press
         </h2>
