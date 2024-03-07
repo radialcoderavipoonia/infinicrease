@@ -9,13 +9,6 @@ const Sell = () => {
       <div className=" w-full h-[150px] bg-[#000942] z-[1] blur-[50px] absolute bottom-[-73px] hidden md:block left-0 right-0"></div>
       <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute md:right-[15%] right-[50%] bottom-0"></div>
       <Image
-        className="absolute left-0 top-0 translate-y-[-50%]"
-        width={1440}
-        height={200}
-        src="/assets/images/stabilies/shadow.png"
-        alt="shadow"
-      />
-      <Image
         className="absolute left-0 top-0 md:w-[185px] md:h-20"
         width={100}
         height={40}
