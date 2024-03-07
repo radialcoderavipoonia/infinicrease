@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0 mt-[109px] pb-14 md:pb-20 lg:pb-[180px]">
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative items-center  ">
             <div className=" xl:w-7/12 lg:w-5/12 relative z-50 pt-[80px] md:pt-[165px] sm:pt-[70px] lg:pt-0 text-center lg:text-start">
-              <h1 className="uppercase text-white font-black font-Nunito text-[48px] sm:text-5xl md:text-6xl lg:text-7xl leading-[122%]">
+              <h1 className="uppercase text-white font-black font-Nunito text-[48px] sm:text-5xl md:text-6xl lg:text-7xl leading-[110%]">
                 Infinicrease
               </h1>
               <p className=" font-Montserrat text-base sm:text-lg text-white opacity-80 mt-4">

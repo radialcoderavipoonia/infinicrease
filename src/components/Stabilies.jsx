@@ -31,7 +31,7 @@ const Stabilies = () => {
             />
           </div>
           <div className="lg:w-6/12 w-full lg:mt-0 sm:mt-10 mt-4 lg:mx-0 mx-auto relative z-10">
-            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[96%]">
+            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[110%]">
               Stabilise & continue
               <span className="linear_color2"> the pump</span>
             </h3>

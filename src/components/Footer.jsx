@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-footer bg-no-repeat footer_bg bg-cover bg-center ">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
-        <h2 className=" text-white text-center font-black font-Nunito xl:text-5xl sm:text-[45px] text-3xl pt-5">
+        <h2 className=" text-white text-center font-black font-Nunito xl:text-5xl sm:text-[45px] text-3xl pt-5 leading-[110%]">
           Press
         </h2>
         <div className="pt-[18px] flex justify-center items-center flex-wrap gap-5">

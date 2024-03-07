@@ -12,7 +12,7 @@ const PumpMode = () => {
         alt="shadow"
       />
       <div className="xl:pt-[190px] lg:py-28 py-20 xl:pb-[210px]">
-        <h3 className="linear_color2 font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl text-center leading-[57px]">
+        <h3 className="linear_color2 font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl text-center leading-[110%]">
           PUMP MODE
         </h3>
         <p className="text-white opacity-80 font-Montserrat font-normal md:text-base text-sm pt-2.5 sm:max-w-[555px] text-center mx-auto">
