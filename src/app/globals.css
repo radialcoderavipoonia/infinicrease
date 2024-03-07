@@ -16,7 +16,10 @@
   }
   /* custom button */
   .custom_button {
-    @apply py-[10px] px-[22px] rounded-[50px] text-white font-Montserrat font-medium md:text-base text-sm bg-gradient-to-r from-TorchRed to-YellowOrange;
+    @apply py-[10px] px-[22px] rounded-[50px] text-white font-Montserrat font-medium md:text-base text-sm bg-gradient-to-r from-TorchRed to-YellowOrange transition-all ease-in-out duration-300;
+  }
+  .custom_button:hover {
+    @apply bg-gradient-to-b;
   }
   /* Styles for mobile navigation links */
   .mobile-nav-li {

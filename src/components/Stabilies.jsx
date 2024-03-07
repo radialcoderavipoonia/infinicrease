@@ -13,7 +13,7 @@ const Stabilies = () => {
       />
       <div className="container xl:max-w-[1380px] px-3 mx-auto pt-[42px] pb-[115px] ">
         <div className="flex justify-center items-center flex-row flex-wrap">
-          <div className="lg:w-6/12 w-full relative">
+          <div className="lg:w-6/12 sm:w-10/12 w-full relative">
             <Image
               className="absolute bottom-[-23%] left-[-2%]"
               width={647}
@@ -30,7 +30,7 @@ const Stabilies = () => {
               "
             />
           </div>
-          <div className="lg:w-6/12 w-full lg:mt-0 mt-32 lg:mx-0 mx-auto">
+          <div className="lg:w-6/12 w-full lg:mt-0 mt-10 lg:mx-0 mx-auto relative z-10">
             <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[120%]">
               Stabilise & continue
               <span className="linear_color2"> the pump</span>

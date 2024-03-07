@@ -9,7 +9,7 @@ const PumpFish = () => {
         <div className="flex items-center flex-wrap">
           <div className=" lg:w-6/12 sm:w-7/12 w-10/12 lg:mx-0 mx-auto">
             <Image
-              src="/assets/images/buyPump/pump_fish.png"
+              src="/assets/images/buyPump/pump_fish.webp"
               width={618}
               height={576}
               alt="pump fish"
