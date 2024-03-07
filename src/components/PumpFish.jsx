@@ -13,7 +13,7 @@ const PumpFish = () => {
               width={618}
               height={576}
               alt="pump fish"
-              className=" xl:scale-125 lg:scale-105 xl:translate-x-[-2%]"
+              className=" xl:scale-125 lg:scale-105 xl:translate-x-[-2%] sm:max-w-[100%] max-w-[321px] sm:mx-0 mx-auto"
             />
           </div>
           <div className=" lg:w-6/12 w-full xl:ps-[75px] lg:ps-10 lg:text-start text-center ">

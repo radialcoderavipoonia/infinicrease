@@ -31,15 +31,16 @@ const Stabilies = () => {
             />
           </div>
           <div className="lg:w-6/12 w-full lg:mt-0 sm:mt-10 mt-4 lg:mx-0 mx-auto relative z-10">
-            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[96%]">
+            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[110%]">
               Stabilise & continue
               <span className="linear_color2"> the pump</span>
             </h3>
             <p className="text-white opacity-80 font-Montserrat font-normal md:text-base text-sm pt-4 lg:max-w-[466px] lg:text-start text-center">
               When the sell pressure becomes significant the{" "}
-              <span className="linear_color">equalizer</span> is a bot that has
-              access to the whale wallet and uses it to buy Infinicrease which
-              causes the price to stabilise and continue the pump.
+              <span className="linear_color font-bold">equalizer</span> is a bot
+              that has access to the whale wallet and uses it to buy
+              Infinicrease which causes the price to stabilise and continue the
+              pump.
             </p>
           </div>
         </div>

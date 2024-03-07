@@ -15,7 +15,7 @@ const Genie = () => {
           />
         </div>
         <div className="flex flex-col">
-          <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center">
+          <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center leading-[110%]">
             The <span className="linear_color2">Genie</span>
           </h3>
           <p className="text-white opacity-80 font-Montserrat font-normal text-base pt-4 lg:max-w-[535px] lg:text-start text-center">
