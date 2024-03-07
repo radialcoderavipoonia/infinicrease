@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
-@font-face {
-  font-family: "NoFlickingThanks";
-  src: url(../../public/assets/font/NoFlickingThanks.ttf);
+
+* {
+  scroll-behavior: smooth !important;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url(./hero.css);
+@font-face {
+  font-family: "NoFlickingThanks";
+  src: url(../../public/assets/font/NoFlickingThanks.ttf);
+}
 /* Component styles */
 @layer components {
   /* tax icon */
@@ -197,6 +201,5 @@ li::marker {
       rgba(0, 176, 235, 0) 41.98%,
       #006be0 94.08%
     ) !important;
-
   }
 }
