@@ -41,10 +41,10 @@
     }
 }
 .Equalizerbot{
-    background: linear-gradient(122.55deg, rgba(0, 19, 145, 0.4) 29.8%, rgba(1, 14, 104, 0) 95%);
     border: 0.8px solid;
     
         border-image-source: linear-gradient(275.48deg, rgba(0, 176, 235, 0) 41.98%, #006BE0 94.08%);
+background: linear-gradient(122.55deg, rgba(0, 19, 145, 0.4) 29.8%, rgba(1, 14, 104, 0) 95%);
 }
 .Genie{
     background: linear-gradient(122.55deg, rgba(1, 14, 104, 0) 0.63%, rgba(0, 19, 145, 0.4) 95%);
@@ -52,6 +52,9 @@
     
         border-image-source: linear-gradient(275.48deg, #006BE0 41.98%, rgba(0, 176, 235, 0) 94.08%);
 }
+
+
+
 @media (max-width:575.98px) {
     @keyframes hand-ball {
             0% {
@@ -75,5 +78,9 @@
 @media (max-width:465.98px) {
     .hand_ball{
         bottom: 77%;
+    }
+}@media (min-widht:465px),(max-width:639.98px) {
+    .hand_ball {
+        bottom: 79%;
     }
 }

@@ -19,9 +19,10 @@ const InfinicreaseVideo = () => {
     }
   };
   return (
-    <div className=" relative py-14 sm:py-16 md:py-24 lg:pt-[169px] lg:pb-[148px]">
+    <div className=" relative py-14 sm:py-16 md:py-24 lg:pt-[169px] lg:pb-[128px]">
       <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute left-[-30%] top-[0%]"></div>
       <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute end-[-30%] bottom-0"></div>
+      <div className=" w-full h-[150px] bg-[#000942] z-[1] blur-[50px] absolute bottom-[-73px] hidden md:block left-0 right-0"></div>
 
       <Image
         src="/assets/images/InfinicreaseVideo/arrow.png"
@@ -39,16 +40,16 @@ const InfinicreaseVideo = () => {
         alt="line"
         sizes="100vw"
         loading="lazy"
-        className=" absolute bottom-[60%] left-20"
+        className=" absolute bottom-[50%] hand left-20"
       />
-      <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 relative z-50">
+      <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0 relative z-50">
         <h2 className=" font-Nunito font-black text-3xl md:text-4xl lg:text-5xl text-white text-center">
           What is <span className="linear_color"> Infinicrease ?</span>
         </h2>
         <p className=" font-Montserrat text-base sm:text-lg text-white opacity-80 mt-2 text-center">
           For the quick overview click the video:
         </p>
-        <div className=" w-full max-w-[908px] mx-auto mt-[53px]">
+        <div className=" w-full max-w-[908px] mx-auto mt-6 lg:mt-[53px]">
           <div className="relative rounded overflow-hidden xl:z-30">
             <video
               id="videoElement"
