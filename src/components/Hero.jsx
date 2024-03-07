@@ -33,33 +33,35 @@ const Hero = () => {
               <div className=" mt-7">
                 <CustomButton type="buy" content="Buy INF" />
               </div>
-              <div className=" mt-8 flex flex-wrap sm:gap-3 xl:gap-0 items-center xl:flex-nowrap relative justify-center lg:justify-start">
-                <div className=" sm:w-5/12 lg:w-4/12 Equalizerbot relative w-full rounded-lg xl:w-[188px] h-[149px] flex justify-center items-center flex-col ">
-                  <Equalizerbot />
-                  <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
-                    Equalizer bot
-                  </p>
-                  <div className=" absolute right-[9px] z-20 hidden xl:block">
-                    <PlusVector />
+              <div className=" mt-8 w-full flex flex-wrap sm:gap-3 xl:gap-0 items-center xl:flex-nowrap relative justify-center lg:justify-start">
+                <div className="w-full flex gradient_hero">
+                  <div className=" sm:w-5/12 lg:w-4/12 Equalizerbot relative w-full rounded-lg xl:w-[188px] h-[149px] flex justify-center items-center flex-col ">
+                    <Equalizerbot />
+                    <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
+                      Equalizer bot
+                    </p>
+                    <div className=" absolute right-[9px] z-20 hidden xl:block">
+                      <PlusVector />
+                    </div>
                   </div>
-                </div>
-                <div className=" sm:w-5/12 lg:w-4/12 Equalizerbot my-5 sm:my-0 relative z-[5] w-full rounded-lg xl :w-[188px] h-[149px] flex justify-center items-center flex-col xl:translate-x-[-24px]">
-                  <WhaleWallet />
-                  <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
-                    Whale wallet
-                  </p>
-                  <div className=" absolute right-[14px] z-50 hidden xl:block">
-                    <PlusVector />
+                  <div className=" sm:w-5/12 lg:w-4/12 Equalizerbot my-5 sm:my-0 relative z-[5] w-full rounded-lg xl :w-[188px] h-[149px] flex justify-center items-center flex-col xl:translate-x-[-24px]">
+                    <WhaleWallet />
+                    <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
+                      Whale wallet
+                    </p>
+                    <div className=" absolute right-[14px] z-50 hidden xl:block">
+                      <PlusVector />
+                    </div>
                   </div>
-                </div>
 
-                <div className=" sm:w-5/12 lg:w-4/12 Genie relative z-10 w-full rounded-lg xl:w-[188px] h-[149px] flex justify-center items-center flex-col xl:translate-x-[-60px]">
-                  <GenieIcon />
-                  <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
-                    Genie
-                  </p>
-                  <div className=" absolute right-[-14px] z-30 hidden xl:block">
-                    <EqualVector />
+                  <div className=" sm:w-5/12 lg:w-4/12 Genie relative z-10 w-full rounded-lg xl:w-[188px] h-[149px] flex justify-center items-center flex-col xl:translate-x-[-60px]">
+                    <GenieIcon />
+                    <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
+                      Genie
+                    </p>
+                    <div className=" absolute right-[-14px] z-30 hidden xl:block">
+                      <EqualVector />
+                    </div>
                   </div>
                 </div>
                 <div className="sm:w-5/12 lg:w-4/12">

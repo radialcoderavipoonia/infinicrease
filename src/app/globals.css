@@ -148,7 +148,40 @@ body {
 li::marker {
   font-size: 10px; /* Set the desired font size for the marker */
 }
-
+/* gradient  */
+.gradient_hero {
+  border-radius: 8.003px;
+  background: linear-gradient(
+    123deg,
+    rgba(0, 19, 144, 0.4) 29.8%,
+    rgba(1, 14, 104, 0) 95%
+  );
+  backdrop-filter: blur(8.002793312072754px);
+}
+.gradient_hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 8.03px 0px 0px 8.03px !important;
+  border-left: 0.8px solid #006be0;
+  border-top: 0.8px solid #006be0;
+  border-bottom: 0.8px solid #006be0;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.gradient_hero::before {
+  content: "";
+  position: absolute;
+  border-radius: 0px 8.03px 8.03px 0px !important;
+  border-right: 0.8px solid #006be0;
+  border-top: 0.8px solid #006be0;
+  border-bottom: 0.8px solid #006be0;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
 @media (min-width: 1024px) {
   .footer_bg {
     background-size: 101% 101% !important;
