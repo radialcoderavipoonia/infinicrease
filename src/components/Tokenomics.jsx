@@ -204,7 +204,7 @@ const Tokenomics = () => {
           </div>
         </div>
         {/* tax */}
-        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[120px] relative">
+        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[100px] relative">
           <span className=" absolute end-[-15%]">
             <HalfBorder />
           </span>
