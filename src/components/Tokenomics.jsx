@@ -13,7 +13,7 @@ const Tokenomics = () => {
         alt="side icon"
         className="max-w-[161px] absolute end-0 bottom-[10%] sm:block hidden"
       />
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto lg:pb-[103px] py-12 sm:py-16 md:py-24">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto lg:pb-[103px] py-12 sm:py-16 md:py-24" id="tokenomics">
         <p className=" font-Nunito font-black linear_color leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-10 lg:pb-10 relative z-10">
           Tokenomics
         </p>
@@ -170,7 +170,7 @@ const Tokenomics = () => {
               alt="token total"
               width={555}
               height={555}
-              className=" w-full hidden max-[555px]:block relative z-10"
+              className=" w-full hidden max-[555px]:block relative z-10 sm:max-w-[100%] max-w-[351px] sm:mx-0 mx-auto"
             />
           </div>
           <div className=" lg:w-5/12 w-full relative z-10 lg:text-start text-center">
