@@ -11,7 +11,7 @@ const Stabilies = () => {
         src="/assets/images/stabilies/shadow.png"
         alt="shadow"
       />
-      <div className="container xl:max-w-[1380px] px-3 mx-auto pt-[42px] pb-[115px] ">
+      <div className="container xl:max-w-[1380px] px-3 mx-auto pt-[42px] lg:pb-[115px] pb-10">
         <div className="flex justify-center items-center flex-row flex-wrap">
           <div className="lg:w-6/12 sm:w-10/12 w-full relative">
             <Image
@@ -26,12 +26,12 @@ const Stabilies = () => {
               width={713}
               height={533}
               src="/assets/images/stabilies/stabilies.webp"
-              alt="stabiliesgit
-              "
+              alt="stabiliesgit"
+              className="max-w-[351px] sm:max-w-[100%] lg:mx-0 mx-auto"
             />
           </div>
-          <div className="lg:w-6/12 w-full lg:mt-0 mt-10 lg:mx-0 mx-auto relative z-10">
-            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[120%]">
+          <div className="lg:w-6/12 w-full lg:mt-0 sm:mt-10 mt-4 lg:mx-0 mx-auto relative z-10">
+            <h3 className="text-cyanBlack font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl lg:text-start text-center lg:max-w-[534px] leading-[96%]">
               Stabilise & continue
               <span className="linear_color2"> the pump</span>
             </h3>
