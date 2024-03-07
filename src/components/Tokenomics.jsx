@@ -15,7 +15,7 @@ const Tokenomics = () => {
       />
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto pb-[103px]">
         <p className=" font-Nunito font-black linear_color leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-10 pb-10 relative z-10">
-          Tokenomics 
+          Tokenomics
         </p>
         <div className="flex flex-wrap justify-center lg:justify-between">
           <div className="xl:w-6/12 lg:w-7/12 md:w-9/12 w-full">
@@ -204,7 +204,7 @@ const Tokenomics = () => {
           </div>
         </div>
         {/* tax */}
-        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[120px] relative">
+        <div className=" min-w-[172px] min-h-[172px] max-w-[172px] max-h-[172px] bg-tax bg_100 bg-no-repeat bg-center flex items-center justify-center mt-[100px] relative">
           <span className=" absolute end-[-15%]">
             <HalfBorder />
           </span>

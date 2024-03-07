@@ -13,17 +13,19 @@ import Tokenomics from "@/components/Tokenomics";
 export default function Home() {
   return (
     <>
-      <BackToTop />
-      <Hero />
-      <PumpFish />
-      <Sell />
-      <Stabilies />
-      <PumpMode />
-      <Genie />
-      <GetInf />
-      <Tokenomics />
-      <Roadmap />
-      <Footer />
+      <div className=" overflow-hidden">
+        <BackToTop />
+        <Hero />
+        <PumpFish />
+        <Sell />
+        <Stabilies />
+        <PumpMode />
+        <Genie />
+        <GetInf />
+        <Tokenomics />
+        <Roadmap />
+        <Footer />
+      </div>
     </>
   );
 }
