@@ -152,7 +152,7 @@ const Roadmap = () => {
         height={512}
         width={1046}
         className="absolute right-[-33%] top-[17%] z-30 lg:block hidden pointer-events-none"
-        src="/assets/images/roadmap/right_shadow.png"
+        src="/assets/images/roadmap/right_shadow.webp"
         alt="roadmap right gradient"
       />
 

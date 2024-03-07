@@ -90,7 +90,7 @@ const Hero = () => {
                 loading="lazy"
                 width={643}
                 height={252}
-                src="/assets/images/hero/hand.png"
+                src="/assets/images/hero/hand.webp"
                 alt="page_logo"
                 className="hand_ball absolute w-full sm:w-[80%] md:w-[74%] bottom-[69%] sm:bottom-[72%] md:bottom-[63%] right-0 sm:right-[6%] md:right-[8%] lg:right-[0%] lg:bottom-[90px] lg:w-[51%] xl:right-[-10%] xl:bottom-[-80px] hand xl:w-[48%] z-[5]"
               />
