@@ -54,7 +54,7 @@ const Hero = () => {
                     </div>
                   </div>
 
-                  <div className=" sm:w-5/12 lg:w-4/12 Genie genie_bg_changed_sm relative z-10 w-full rounded-lg xl:w-[188px] sm:h-[149px] h-[125px] flex justify-center items-center flex-col ">
+                  <div className=" sm:w-5/12 lg:w-4/12  genie_bg_changed_sm relative z-10 w-full rounded-lg xl:w-[188px] sm:h-[149px] h-[125px] flex justify-center items-center flex-col ">
                     <GenieIcon />
                     <p className=" font-NoFlickingThanks text-base font-normal text-cyanBlack mt-2">
                       Genie
