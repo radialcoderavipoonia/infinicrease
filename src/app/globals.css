@@ -10,9 +10,13 @@
 @import url(./hero.css);
 /* Component styles */
 @layer components {
+  /* tax icon */
+  .tax_icon {
+    @apply absolute flex items-center gap-3;
+  }
   /* custom button */
   .custom_button {
-    @apply py-[10px] px-[22px] rounded-[50px] text-white font-Montserrat font-medium text-base bg-gradient-to-r from-TorchRed to-YellowOrange;
+    @apply py-[10px] px-[22px] rounded-[50px] text-white font-Montserrat font-medium md:text-base text-sm bg-gradient-to-r from-TorchRed to-YellowOrange;
   }
   /* Styles for mobile navigation links */
   .mobile-nav-li {

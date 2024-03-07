@@ -24,7 +24,7 @@ const Tokenomics = () => {
                 <span className=" mb-3">
                   <Token />
                 </span>
-                <p className=" font-NoFlickingThanks font-normal text-2xl text-white mb-[2px]">
+                <p className=" font-NoFlickingThanks font-normal md:text-2xl text-[24px] text-white mb-[2px]">
                   888 Million
                 </p>
                 <p className=" font-plusSans text-greyGoose font-normal text-lg">
@@ -39,7 +39,7 @@ const Tokenomics = () => {
                     1%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Initial Genie wallet liquidity
                 </p>
               </div>
@@ -50,7 +50,7 @@ const Tokenomics = () => {
                     10%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Initial DEX liquidity
                 </p>
               </div>
@@ -61,7 +61,7 @@ const Tokenomics = () => {
                     4%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Marketing
                 </p>
               </div>
@@ -72,7 +72,7 @@ const Tokenomics = () => {
                     10%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center text-nowrap">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center text-nowrap">
                   Staking Rewards <span className=" block">(future)</span>
                 </p>
               </div>
@@ -83,7 +83,7 @@ const Tokenomics = () => {
                     15%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   IDO
                 </p>
               </div>
@@ -94,7 +94,7 @@ const Tokenomics = () => {
                     5%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Initial Whale Wallet liquidity
                 </p>
               </div>
@@ -105,7 +105,7 @@ const Tokenomics = () => {
                     20%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Treasury
                 </p>
               </div>
@@ -116,7 +116,7 @@ const Tokenomics = () => {
                     5%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Development
                 </p>
               </div>
@@ -127,7 +127,7 @@ const Tokenomics = () => {
                     5%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Advisors
                 </p>
               </div>
@@ -138,7 +138,7 @@ const Tokenomics = () => {
                     10%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Team
                 </p>
               </div>
@@ -149,7 +149,7 @@ const Tokenomics = () => {
                     5%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Grants
                 </p>
               </div>
@@ -160,7 +160,7 @@ const Tokenomics = () => {
                     5%
                   </p>
                 </div>
-                <p className=" text-white font-Nunito font-semibold text-base text-center">
+                <p className=" text-white font-Nunito font-semibold md:text-base text-sm text-center">
                   Airdrop
                 </p>
               </div>
@@ -177,7 +177,7 @@ const Tokenomics = () => {
             <p className="text-cyanBlack font-NoFlickingThanks font-normal text-xl mb-[6px]">
               Overview
             </p>
-            <p className=" font-Montserrat font-normal text-base text-purpleBlue mb-3 lg:pe-3">
+            <p className=" font-Montserrat font-normal md:text-base text-sm text-purpleBlue mb-3 lg:pe-3">
               Infinicrease is a coin that has a bot function where when users
               buy 6% is deducted from buys sells and transfers and stored in a
               whale wallet. When sell pressure occurs the equalizer is a bot
@@ -190,7 +190,7 @@ const Tokenomics = () => {
             <p className="text-cyanBlack font-NoFlickingThanks font-normal text-xl mb-[6px] lg:pe-3">
               Technicals
             </p>
-            <p className=" font-Montserrat font-normal text-base text-purpleBlue">
+            <p className=" font-Montserrat font-normal md:text-base text-sm text-purpleBlue">
               The whale wallet will be a smart contract wallet, and the
               equalizer will be a bot run on a custom-built infura-like service
               for Aptos into Binance Smart Chain. INF will be listed on all the
@@ -208,42 +208,42 @@ const Tokenomics = () => {
           <span className=" absolute end-[-15%]">
             <HalfBorder />
           </span>
-          <div className=" absolute flex items-center gap-3 top-[-33%] start-[32%]">
+          <div className=" tax_icon top-[-33%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold text-base text-white">5%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">5%</p>
             </div>
-            <p className=" font-Nunito font-semibold text-base text-white text-nowrap">
+            <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Whale Wallet
             </p>
           </div>
           {/* Emergency Fund */}
-          <div className=" absolute flex items-center gap-3 bottom-[-30%] start-[32%]">
+          <div className=" tax_icon bottom-[-30%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold text-base text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
             </div>
-            <p className=" font-Nunito font-semibold text-base text-white text-nowrap">
+            <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Emergency Fund
             </p>
           </div>
           {/* Genie */}
-          <div className=" absolute flex items-center gap-3 bottom-[55%] end-[-55%]">
+          <div className=" tax_icon bottom-[55%] end-[-55%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold text-base text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
             </div>
-            <p className=" font-Nunito font-semibold text-base text-white text-nowrap">
+            <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Genie
             </p>
           </div>
           {/* Marketing Wallet */}
-          <div className=" absolute flex items-center gap-3 bottom-[9%] end-[-103%]">
+          <div className=" tax_icon bottom-[9%] end-[-103%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold text-base text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
             </div>
-            <p className=" font-Nunito font-semibold text-base text-white text-nowrap">
+            <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Marketing Wallet
             </p>
           </div>
-          <p className=" font-NoFlickingThanks font-normal text-base text-white text-center">
+          <p className=" font-NoFlickingThanks font-normal md:text-base text-sm text-white text-center">
             8% <span className=" block">Transaction</span> Tax
           </p>
         </div>
