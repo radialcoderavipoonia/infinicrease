@@ -1,23 +1,23 @@
 export const NavLinks = [
   {
     title: "Home",
-    option: [{ links: "About Us", path: "#" }],
+    path: "#Home",
   },
   {
     title: "Press",
-    option: [{ links: "About Us", path: "#" }],
+    path: "#press",
   },
   {
     title: "How It Works",
-    option: [{ links: "About Us", path: "#" }],
+    path: "#works",
   },
   {
     title: "Tokenomics",
-    option: [{ links: "Practice Areas", path: "#" }],
+    path: "#tokenomics",
   },
   {
     title: "Roadmap",
-    option: [{ links: "About Us", path: "#" }],
+    path: "#roadmap",
   },
 ];
 export const getInf = [

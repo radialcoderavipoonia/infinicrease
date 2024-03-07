@@ -58,7 +58,7 @@ const NavBar = () => {
                   return (
                     <div key={index} className="relative">
                       <Link
-                        href="#"
+                        href={value.path}
                         className=" font-Montserrat text-base text-cyanBlack relative nav_text_hover transition-all duration-300 ease-linear"
                       >
                         {value.title}
