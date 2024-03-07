@@ -37,7 +37,7 @@
     }
 
     100% {
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 }
 .Equalizerbot{
@@ -51,4 +51,29 @@
     border: 0.8px solid;
     
         border-image-source: linear-gradient(275.48deg, #006BE0 41.98%, rgba(0, 176, 235, 0) 94.08%);
+}
+@media (max-width:575.98px) {
+    @keyframes hand-ball {
+            0% {
+                transform: translateY(-80px);
+            }
+    
+            100% {
+                transform: translateY(-40px);
+            }
+        }
+                @keyframes hand {
+                    0% {
+                        transform: translateY(-50px);
+                    }
+        
+                    100% {
+                        transform: translateY(0px);
+                    }
+                }
+}
+@media (max-width:465.98px) {
+    .hand_ball{
+        bottom: 77%;
+    }
 }

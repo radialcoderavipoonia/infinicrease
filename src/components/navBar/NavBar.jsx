@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { NavLinks } from "../common/Helper";
-import { Genie, HeaderCross, OpenNav } from "../common/Icons";
+import { GenieNav, HeaderCross, OpenNav } from "../common/Icons";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
 import CustomButton from "../common/CustomButton";
@@ -52,8 +52,8 @@ const NavBar = () => {
             </div>
             {/* Navigation links */}
 
-            <div className="hidden lg:flex items-center gap-20">
-              <div className="flex items-center  gap-6">
+            <div className="hidden lg:flex items-center gap-8 xl:gap-20">
+              <div className="flex items-center gap-4 xl:gap-6">
                 {NavLinks.map((value, index) => {
                   return (
                     <div key={index} className="relative">
@@ -69,7 +69,7 @@ const NavBar = () => {
               </div>
               <div className=" flex items-center gap-2">
                 <CustomButton type="subimt" content="Contract Details" />
-                <Genie />
+                <GenieNav />
               </div>
             </div>
             {/* Button */}

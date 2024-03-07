@@ -7,17 +7,21 @@ import Genie from "@/components/Genie";
 import PumpMode from "@/components/PumpMode";
 import Stabilies from "@/components/Stabilies";
 import Sell from "@/components/Sell";
+import BackToTop from "@/components/common/BackToTop";
+import Tokenomics from "@/components/Tokenomics";
 
 export default function Home() {
   return (
     <>
-      {/* <Hero /> */}
+      <BackToTop />
+      <Hero />
       <PumpFish />
       <Sell />
       <Stabilies />
       <PumpMode />
       <Genie />
       <GetInf />
+      <Tokenomics />
       <Roadmap />
       <Footer />
     </>

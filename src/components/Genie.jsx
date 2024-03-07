@@ -19,7 +19,7 @@ const Genie = () => {
           </h3>
           <p className="text-white opacity-80 font-Montserrat font-normal text-base pt-4 sm:max-w-[535px] sm:text-start text-center">
             The Genie is a wallet that collects fees and at random times is
-            awakened!. When the genie is awakened the first user to go to the
+            awakened!. When the genie is awakened the first user to go to the 
             site claims all the funds in the Genie Wallet. It&#39;s on a first
             come first serve basis! Only users who meet the minimum requirements
             of 8888 $INF are allowed to use the genie.
