@@ -5,13 +5,13 @@ const Stabilies = () => {
   return (
     <div className="bg-stabilies bg-cover relative">
       <Image
-        className="absolute left-0 top-0 translate-y-[-50%]"
+        className="absolute left-0 top-0 translate-y-[-50%] pointer-events-none"
         width={1440}
         height={200}
         src="/assets/images/stabilies/shadow.png"
         alt="shadow"
       />
-      <div className="container xl:max-w-[1380px] px-3 mx-auto pt-[42px] lg:pb-[115px] pb-10">
+      <div className="container xl:max-w-[1380px] px-3 mx-auto lg:pt-[42px] lg:pb-[115px] py-12 sm:py-16 md:py-24">
         <div className="flex justify-center items-center flex-row flex-wrap">
           <div className="lg:w-6/12 sm:w-10/12 w-full relative">
             <Image

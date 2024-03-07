@@ -5,7 +5,7 @@ import CustomButton from "./common/CustomButton";
 const PumpFish = () => {
   return (
     <div className=" bg-byPump bg-no-repeat bg-cover bg-center">
-      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto pt-36 pb-[106px]">
+      <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto lg:pt-36 lg:pb-[106px] py-12 sm:py-16 md:py-24">
         <div className="flex items-center flex-wrap">
           <div className=" lg:w-6/12 sm:w-7/12 w-10/12 lg:mx-0 mx-auto">
             <Image
