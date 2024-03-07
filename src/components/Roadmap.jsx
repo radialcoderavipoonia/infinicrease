@@ -145,8 +145,15 @@ const Roadmap = () => {
         height={200}
         width={1440}
         className="w-full h-[200px] absolute left-0 bottom-0"
-              src="/assets/images/background/footer_gradient.webp"
-              alt="footer gardient bg"
+        src="/assets/images/background/footer_gradient.webp"
+        alt="footer gardient bg"
+      />
+      <Image
+        height={100}
+        width={1440}
+        className="w-full h-[200px] absolute left-0 top-[-50px]"
+        src="/assets/images/background/tokenomics_gradient.png"
+        alt="tokenomics gardient bg"
       />
     </div>
   );

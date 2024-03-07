@@ -13,7 +13,9 @@ import {
 const Hero = () => {
   return (
     <>
-      <div className=" bg-hero bg-cover bg-no-repeat overflow-hidden">
+      <div className=" bg-hero bg-cover bg-no-repeat  relative">
+        <div className=" w-full h-[150px] bg-[#050C3B]  blur-[10px] absolute bottom-[-73px]"></div>
+
         <NavBar />
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 mt-[109px] pb-[102px]">
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative items-center">

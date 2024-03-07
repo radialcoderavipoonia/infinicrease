@@ -14,6 +14,7 @@ import InfinicreaseVideo from "@/components/InfinicreaseVideo";
 export default function Home() {
   return (
     <>
+      <div className=" overflow-hidden">
       <BackToTop />
       <Hero />
       <InfinicreaseVideo/>
@@ -22,10 +23,11 @@ export default function Home() {
       <Stabilies />
       <PumpMode />
       <Genie />
-      <GetInf />
-      <Tokenomics />
+      <GetInf />  
+      {/* <Tokenomics />   */}
       <Roadmap />
-      <Footer />
+        <Footer />
+        </div>
     </>
   );
 }
