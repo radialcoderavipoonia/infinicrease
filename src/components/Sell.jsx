@@ -4,6 +4,10 @@ import React from "react";
 const Sell = () => {
   return (
     <div className="relative">
+      <div className=" w-full h-[150px] bg-[#000942]  blur-[10px] absolute bottom-[-110px] z-[1]"></div>
+
+      <div className=" w-full h-[150px] bg-[#000942] z-[1] blur-[50px] absolute bottom-[-73px] hidden md:block left-0 right-0"></div>
+
       <Image
         className="absolute left-0 top-0 md:w-[185px]"
         width={185}

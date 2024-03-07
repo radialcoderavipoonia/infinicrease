@@ -43,7 +43,7 @@ const InfinicreaseVideo = () => {
         className=" absolute bottom-[50%] hand left-20"
       />
       <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0 relative z-50">
-        <h2 className=" font-Nunito font-black text-3xl md:text-4xl lg:text-5xl text-white text-center">
+        <h2 className=" font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl text-white text-center">
           What is <span className="linear_color"> Infinicrease ?</span>
         </h2>
         <p className=" font-Montserrat text-base sm:text-lg text-white opacity-80 mt-2 text-center">
