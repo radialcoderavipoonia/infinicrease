@@ -22,6 +22,7 @@ const InfinicreaseVideo = () => {
     <div className=" relative py-14 sm:py-16 md:py-24 lg:pt-[169px] lg:pb-[148px]">
       <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute left-[-30%] top-[0%]"></div>
       <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute end-[-30%] bottom-0"></div>
+      <div className=" w-full h-[150px] bg-[#050C3B]  blur-[10px] absolute bottom-[-73px] hidden md:block   "></div>
 
       <Image
         src="/assets/images/InfinicreaseVideo/arrow.png"
