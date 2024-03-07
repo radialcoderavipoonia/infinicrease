@@ -487,7 +487,7 @@ export const HalfBorder = () => {
     <svg
       width="125"
       height="249"
-      className=" h-full max-h-[210px]"
+      className=" h-full max-h-[224px]"
       viewBox="0 0 125 249"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -208,7 +208,7 @@ const Tokenomics = () => {
           <span className=" absolute end-[-15%]">
             <HalfBorder />
           </span>
-          <div className=" absolute flex items-center gap-3 top-[-33%] start-[32%]">
+          <div className=" tax_icon top-[-33%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
               <p className=" font-Nunito font-bold text-base text-white">5%</p>
             </div>
@@ -217,7 +217,7 @@ const Tokenomics = () => {
             </p>
           </div>
           {/* Emergency Fund */}
-          <div className=" absolute flex items-center gap-3 bottom-[-30%] start-[32%]">
+          <div className=" tax_icon bottom-[-30%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
               <p className=" font-Nunito font-bold text-base text-white">1%</p>
             </div>
@@ -226,7 +226,7 @@ const Tokenomics = () => {
             </p>
           </div>
           {/* Genie */}
-          <div className=" absolute flex items-center gap-3 bottom-[55%] end-[-55%]">
+          <div className=" tax_icon bottom-[55%] end-[-55%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
               <p className=" font-Nunito font-bold text-base text-white">1%</p>
             </div>
@@ -235,7 +235,7 @@ const Tokenomics = () => {
             </p>
           </div>
           {/* Marketing Wallet */}
-          <div className=" absolute flex items-center gap-3 bottom-[9%] end-[-103%]">
+          <div className=" tax_icon bottom-[9%] end-[-103%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
               <p className=" font-Nunito font-bold text-base text-white">1%</p>
             </div>
