@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-footer bg-no-repeat bg-cover">
+    <div className="bg-footer bg-no-repeat footer_bg bg-cover ">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
         <h2 className=" text-white text-center font-black font-Nunito text-5xl">
           Press

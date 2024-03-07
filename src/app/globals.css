@@ -141,3 +141,8 @@ body {
   opacity: 0.82;
   filter: blur(185.238px);
 }
+@media (min-width: 1024px) {
+  .footer_bg {
+    background-size: 100% 100% !important;
+  }
+}
