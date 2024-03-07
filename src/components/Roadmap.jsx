@@ -3,9 +3,9 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="bg-roadmap bg-cover pb-8 relative">
+    <div className="bg-roadmap bg-cover sm:pb-8 relative">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20">
-        <h2 className="text-center pt-16 linear_color font-Nunito font-black text-5xl pb-2">
+        <h2 className="text-center sm:pt-16 pt-4 linear_color font-Nunito font-black text-5xl sm:pb-2">
           Roadmap
         </h2>
         <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:py-40 sm:py-28 py-12 ">
@@ -144,14 +144,14 @@ const Roadmap = () => {
       <Image
         height={200}
         width={1440}
-        className="w-full h-[200px] absolute left-0 bottom-0"
+        className="w-full h-[200px] absolute left-0 bottom-0 pointer-events-none"
         src="/assets/images/background/footer_gradient.webp"
         alt="footer gardient bg"
       />
       <Image
         height={100}
         width={1440}
-        className="w-full h-[200px] absolute left-0 top-[-50px]"
+        className="w-full h-[200px] absolute left-0 top-[-50px] pointer-events-none"
         src="/assets/images/background/tokenomics_gradient.png"
         alt="tokenomics gardient bg"
       />

@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-footer bg-no-repeat bg-cover">
+    <div className="bg-footer bg-no-repeat footer_bg bg-cover ">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
         <h2 className=" text-white text-center font-black font-Nunito text-5xl">
           Press
@@ -16,33 +16,33 @@ const Footer = () => {
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/market_watch.webp"
             alt="market watch"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/benzinga.webp"
             alt="benzinga"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/journal.webp"
             alt="journal"
           />
           <Image
             height={132}
             width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
             src="/assets/images/footerPress/yahoo.webp"
             alt="yahoo"
           />
         </div>
-        <div className="pt-44 mt-2 flex justify-center items-center gap-[10px]">
+        <div className="sm:pt-44 pt-20 mt-2 flex justify-center items-center gap-[10px]">
           <Link
             href="https://twitter.com/"
             target="blank"
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-[1px] bg-white mt-6 opacity-50"></div>
-      <p className="pt-4 pb-6 text-center text-white font-Montserrat font-mediumn text-base opacity-50">
+      <p className="sm:pt-4 sm:pb-6 py-3 text-center text-white font-Montserrat font-mediumn text-base opacity-50">
         Copyright@{currentYear}
       </p>
     </div>
