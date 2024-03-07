@@ -1,8 +1,16 @@
+import Image from "next/image";
 import React from "react";
 
 const PumpMode = () => {
   return (
-    <div className="bg-pumpMode bg-cover">
+    <div className="bg-pumpMode bg-cover relative">
+      <Image
+        className="absolute left-0 bottom-0 translate-y-[50%]"
+        width={1440}
+        height={200}
+        src="/assets/images/stabilies/shadow.png"
+        alt="shadow"
+      />
       <div className="xl:pt-[190px] lg:py-28 py-20 xl:pb-[210px]">
         <h3 className="linear_color2 font-Nunito font-black text-5xl text-center">
           PUMP MODE
