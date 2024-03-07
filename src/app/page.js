@@ -15,19 +15,19 @@ export default function Home() {
   return (
     <>
       <div className=" overflow-hidden">
-      <BackToTop />
-      <Hero />
-      <InfinicreaseVideo/>
-      <PumpFish />
-      <Sell />
-      <Stabilies />
-      <PumpMode />
-      <Genie />
-      <GetInf />  
-      {/* <Tokenomics />   */}
-      <Roadmap />
+        <BackToTop />
+        <Hero />
+        <InfinicreaseVideo />
+        <PumpFish />
+        <Sell />
+        <Stabilies />
+        <PumpMode />
+        <Genie />
+        <GetInf />
+        <Tokenomics />
+        <Roadmap />
         <Footer />
-        </div>
+      </div>
     </>
   );
 }

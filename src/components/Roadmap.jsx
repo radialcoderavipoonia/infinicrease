@@ -3,9 +3,9 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="bg-roadmap bg-cover pb-8 relative">
+    <div className="bg-roadmap bg-cover lg:pb-8 relative">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20">
-        <h2 className="text-center pt-16 linear_color font-Nunito font-black text-5xl pb-2">
+        <h2 className="text-center sm:pt-16 pt-4 linear_color font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl sm:pb-2">
           Roadmap
         </h2>
         <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:py-40 sm:py-28 py-12 ">
@@ -49,89 +49,89 @@ const Roadmap = () => {
               <div className="h-[83%] md:mt-8 mt-4 ms-20 w-[8px] bg-red-500 lg:hidden sm:block hidden"></div>
               <div className="lg:w-full sm:w-3/5 w-full max-w-[310px] mx-auto">
                 <div className="max-w-[306px] lg:absolute left-[1%] top-[10%]">
-                  <h3 className="linear_color font-Nunito font-extrabold text-2xl">
+                  <h3 className="linear_color font-Nunito font-extrabold md:text-2xl text-[24px]">
                     Phase 1: Launch
                   </h3>
                   <ul className="list-disc ms-4">
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       1000 Community Members.
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Website Launch
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       1000 Holders
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Coingecko and CoinMarketCap Listing
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       2500 Telegram Community Members
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       2500 Holders
                     </li>
                   </ul>
                 </div>
                 <div className="max-w-[306px] lg:absolute xl:left-[60%] left-[62%] top-[8%] lg:pt-0 pt-10">
-                  <h3 className="linear_color font-Nunito font-extrabold text-2xl">
+                  <h3 className="linear_color font-Nunito font-extrabold md:text-2xl text-[24px]">
                     Phase 2: Growth
                   </h3>
                   <ul className="list-disc ms-4">
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       5,000 Telegram Members.
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Website Redesign
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       1000 Holders
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       TikTok Marketing Campaign
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Ambassador Marketing Campaign
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Influencer Marketing Campaign
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Tesla Giveaway
                     </li>
                   </ul>
                 </div>
                 <div className="max-w-[306px] lg:absolute left-[32%] top-[95%] lg:pt-0 pt-10">
-                  <h3 className="linear_color font-Nunito font-extrabold text-2xl">
+                  <h3 className="linear_color font-Nunito font-extrabold md:text-2xl text-[24px]">
                     Phase 3: Expansion
                   </h3>
                   <ul className="list-disc ms-4">
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       CEX Listing
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       25,000 Holders
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Billboard on Times Saquare
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Expansion to Other Chains
                     </li>
                   </ul>
                 </div>
                 <div className="max-w-[306px] lg:absolute right-[4%] top-[102%] lg:pt-0 pt-10">
-                  <h3 className="linear_color font-Nunito font-extrabold text-2xl">
+                  <h3 className="linear_color font-Nunito font-extrabold md:text-2xl text-[24px]">
                     Phase 4: Consolidation
                   </h3>
                   <ul className="list-disc ms-4">
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       50,000 Holders
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Tier 1 CEX Listing
                     </li>
-                    <li className="text-white font-Montserrat font-normal text-base opacity-80">
+                    <li className="text-white font-Montserrat font-normal md:text-base text-sm opacity-80">
                       Lamborghini Giveaways and much more...
                     </li>
                   </ul>
@@ -144,14 +144,14 @@ const Roadmap = () => {
       <Image
         height={200}
         width={1440}
-        className="w-full h-[200px] absolute left-0 bottom-0"
+        className="w-full h-[200px] absolute left-0 bottom-0 pointer-events-none"
         src="/assets/images/background/footer_gradient.webp"
         alt="footer gardient bg"
       />
       <Image
         height={100}
         width={1440}
-        className="w-full h-[200px] absolute left-0 top-[-50px]"
+        className="w-full h-[200px] absolute left-0 top-[-50px] pointer-events-none"
         src="/assets/images/background/tokenomics_gradient.png"
         alt="tokenomics gardient bg"
       />
