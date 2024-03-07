@@ -8,7 +8,7 @@ const Roadmap = () => {
         <h2 className="text-center sm:pt-16 pt-4 linear_color font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl sm:pb-2">
           Roadmap
         </h2>
-        <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:py-40 sm:py-28 py-12 ">
+        <div className="lg:pt-52 lg:mt-2 lg:pb-64 md:pb-40 md:pt-16 sm:pb-28 sm:pt-14 py-12 ">
           <div className="flex justify-center relative">
             <Image
               height={478}
@@ -34,7 +34,7 @@ const Roadmap = () => {
             <Image
               height={194}
               width={119}
-              className="absolute xl:top-[45%] xl:left-[39%] lg:top-[46%] lg:left-[39%] md:top-[58%] md:left-[4.3%] top-[58%] left-[6.4%] md:w-[119px] md:h-[194px] sm:w-[99px] sm:h-[161px] sm:block hidden"
+              className="absolute xl:top-[45%] xl:left-[39%] lg:top-[46%] lg:left-[39%] md:top-[58%] md:left-[4.3%] top-[%] left-[6.4%] md:w-[119px] md:h-[194px] sm:w-[99px] sm:h-[161px] sm:block hidden"
               src="/assets/images/roadmap/roadmap_number_three.webp"
               alt="roadmap number three"
             />
