@@ -12,6 +12,7 @@ module.exports = {
         footer: "url('/assets/images/background/footer_bg.webp')",
         byPump: "url('/assets/images/background/buy_pump.png')",
         getCard: "url('/assets/images/background/get_card.png')",
+        getCardHover: "url('/assets/images/background/get_card_hover.svg')",
         pumpMode: "url('/assets/images/background/pumpMode-bg.webp')",
         stabilies: "url('/assets/images/background/stabilies-bg.webp')",
         roadmap: "url('/assets/images/background/roadmap.webp')",

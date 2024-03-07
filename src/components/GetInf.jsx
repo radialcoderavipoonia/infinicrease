@@ -25,7 +25,7 @@ const GetInf = () => {
               className=" lg:w-3/12 md:w-4/12 sm:w-6/12 w-full px-3 relative z-10 sm:max-w-[100%] max-w-[250px]"
               key={index}
             >
-              <div className="pt-[74px] h-full pb-[53px] px-4 bg_100 bg-no-repeat bg-getCard get_card hover:translate-y-[-16px] transition-all ease-in-out duration-150">
+              <div className="pt-[74px] h-full pb-[53px] px-4 bg_100 bg-no-repeat bg-getCard hover:bg-getCardHover get_card hover:translate-y-[-16px] transition-all ease-in-out duration-300">
                 <p className=" linear_color font-Nunito font-extrabold md:text-3xl text-2xl text-center leading-[35px] mb-[14px]">
                   {value.title}
                 </p>
