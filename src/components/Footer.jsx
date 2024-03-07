@@ -7,53 +7,62 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-footer bg-no-repeat footer_bg bg-cover ">
+    <div className="bg-footer bg-no-repeat footer_bg bg-cover bg-center ">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
-        <h2 className=" text-white text-center font-black font-Nunito xl:text-5xl sm:text-[45px] text-3xl">
+        <h2 className=" text-white text-center font-black font-Nunito xl:text-5xl sm:text-[45px] pt-5 text-3xl">
           Press
         </h2>
         <div className="pt-[18px] flex justify-center items-center flex-wrap gap-5">
-          <Image
-            height={132}
-            width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
-            src="/assets/images/footerPress/market_watch.webp"
-            alt="market watch"
-          />
-          <Image
-            height={132}
-            width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
-            src="/assets/images/footerPress/benzinga.webp"
-            alt="benzinga"
-          />
-          <Image
-            height={132}
-            width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
-            src="/assets/images/footerPress/journal.webp"
-            alt="journal"
-          />
-          <Image
-            height={132}
-            width={269}
-            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
-            src="/assets/images/footerPress/yahoo.webp"
-            alt="yahoo"
-          />
+          <Link href=" https://www.marketwatch.com/" target="blank">
+            <Image
+              height={132}
+              width={269}
+              className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
+              src="/assets/images/footerPress/market_watch.webp"
+              alt="market watch"
+            />
+          </Link>
+
+          <Link href="https://www.benzinga.com/" target="blank">
+            <Image
+              height={132}
+              width={269}
+              className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
+              src="/assets/images/footerPress/benzinga.webp"
+              alt="benzinga"
+            />
+          </Link>
+          <Link href="https://www.bizjournals.com/" target="blank">
+            <Image
+              height={132}
+              width={269}
+              className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
+              src="/assets/images/footerPress/journal.webp"
+              alt="journal"
+            />
+          </Link>
+          <Link href="https://in.search.yahoo.com/?fr2=inr" target="blank">
+            <Image
+              height={132}
+              width={269}
+              className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out sm:w-[269px] w-[250px]"
+              src="/assets/images/footerPress/yahoo.webp"
+              alt="yahoo"
+            />
+          </Link>
         </div>
         <div className="sm:pt-44 pt-20 mt-2 flex justify-center items-center gap-[10px]">
           <Link
             href="https://twitter.com/"
             target="blank"
-            className="hover:scale-105 transition-all duration-300 ease-in-out rounded-[50%] hover:shadow-svg"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           >
             <Twitter />
           </Link>
           <Link
             href="https://www.telegram.com/"
             target="blank"
-            className="hover:scale-105 transition-all duration-300 ease-in-out rounded-[50%] hover:shadow-svg"
+            className="hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           >
             <Telegram />
           </Link>

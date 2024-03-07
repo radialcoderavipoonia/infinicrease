@@ -5,7 +5,7 @@ import Image from "next/image";
 const Tokenomics = () => {
   return (
     <div className=" relative">
-      <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute end-[-20%] top-[-20%]"></div>
+      <div className="w-[800px] h-[400px] bg-[#5D2F2E] rounded-full blur-[150px] absolute end-[-20%] top-[-20%] pointer-events-none"></div>
       <Image
         src="/assets/images/tokenomics/side_icon.png"
         width={161}
@@ -14,7 +14,7 @@ const Tokenomics = () => {
         className="max-w-[161px] absolute end-0 bottom-[10%] sm:block hidden"
       />
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto pb-[103px]">
-        <p className=" font-Nunito font-black linear_color leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-10 pb-10 relative z-10">
+        <p className=" font-Nunito font-black linear_color leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-10 lg:pb-10 relative z-10">
           Tokenomics
         </p>
         <div className="flex flex-wrap justify-center lg:justify-between">

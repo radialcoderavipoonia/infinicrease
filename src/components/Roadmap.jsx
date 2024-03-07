@@ -3,7 +3,7 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="bg-roadmap bg-cover sm:pb-8 relative">
+    <div className="bg-roadmap bg-cover lg:pb-8 relative">
       <div className="container xl:max-w-[1140px] xl:px-0 px-3 mx-auto relative z-20">
         <h2 className="text-center sm:pt-16 pt-4 linear_color font-Nunito font-black xl:text-5xl sm:text-[45px] text-3xl sm:pb-2">
           Roadmap
@@ -149,12 +149,14 @@ const Roadmap = () => {
         alt="footer gardient bg"
       />
       <Image
-        height={100}
-        width={1440}
-        className="w-full h-[200px] absolute left-0 top-[-50px] pointer-events-none"
-        src="/assets/images/background/tokenomics_gradient.png"
-        alt="tokenomics gardient bg"
+        height={512}
+        width={1046}
+        className="absolute right-[-33%] top-[17%] z-30 lg:block hidden pointer-events-none"
+        src="/assets/images/roadmap/right_shadow.png"
+        alt="roadmap right gradient"
       />
+
+      <div className="w-full bg-[#000942] h-full absolute left-0 top-[-50px] pointer-events-none"></div>
     </div>
   );
 };

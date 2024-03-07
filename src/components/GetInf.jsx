@@ -5,7 +5,7 @@ import { GetArrow } from "./common/Icons";
 
 const GetInf = () => {
   return (
-    <div className=" md:pt-14 md:pb-36 pb-20 container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
+    <div className=" md:pt-14 lg:pb-36 md:pb-32 pb-20 container xl:max-w-[1140px] xl:px-0 px-3 mx-auto">
       <p className=" font-Nunito font-black text-cyanBlack  leading-[110%] xl:text-5xl sm:text-[45px] text-3xl text-center mb-16">
         <span className=" linear_color">How to get</span> INF
       </p>
