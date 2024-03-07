@@ -9,6 +9,7 @@ import Stabilies from "@/components/Stabilies";
 import Sell from "@/components/Sell";
 import BackToTop from "@/components/common/BackToTop";
 import Tokenomics from "@/components/Tokenomics";
+import InfinicreaseVideo from "@/components/InfinicreaseVideo";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <div className=" overflow-hidden">
         <BackToTop />
         <Hero />
+        <InfinicreaseVideo />
         <PumpFish />
         <Sell />
         <Stabilies />
