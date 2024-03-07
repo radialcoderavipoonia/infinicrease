@@ -17,6 +17,8 @@ module.exports = {
         roadmap: "url('/assets/images/background/roadmap.webp')",
         tokenShadow: "url('/assets/images/tokenomics/tokenomics.svg')",
         tokenIcon: "url('/assets/images/tokenomics/token.svg')",
+        tax: "url('/assets/images/tokenomics/tax.svg')",
+        taxCircle: "url('/assets/images/tokenomics/tax_circle.svg')",
       },
       boxShadow: {
         svg: "white 0px 0px 10px 2px",

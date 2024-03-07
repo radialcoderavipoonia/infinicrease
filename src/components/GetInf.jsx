@@ -10,19 +10,19 @@ const GetInf = () => {
         <span className=" linear_color">How to get</span> INF
       </p>
       <div className=" flex flex-wrap relative gap-y-6">
-        <span className=" absolute z-10 top-[33%] start-[21.3%] lg:block hidden">
+        <span className=" absolute z-20 top-[33%] start-[21.3%] lg:block hidden">
           <GetArrow />
         </span>
-        <span className=" absolute z-10 top-[33%] start-[46.3%] lg:block hidden">
+        <span className=" absolute z-20 top-[33%] start-[46.3%] lg:block hidden">
           <GetArrow />
         </span>
-        <span className=" absolute z-10 top-[33%] start-[71.3%] lg:block hidden">
+        <span className=" absolute z-20 top-[33%] start-[71.3%] lg:block hidden">
           <GetArrow />
         </span>
         {getInf.map((value, index) => {
           return (
             <div
-              className=" lg:w-3/12 md:w-4/12 sm:w-6/12 w-full px-3"
+              className=" lg:w-3/12 md:w-4/12 sm:w-6/12 w-full px-3 relative z-10"
               key={index}
             >
               <div className="pt-[74px] h-full half-a-border-on-top pb-[53px] px-4 bg_100 bg-no-repeat bg-getCard get_card hover:translate-y-[-16px] transition-all ease-in-out duration-150">
