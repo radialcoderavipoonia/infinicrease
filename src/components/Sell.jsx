@@ -5,9 +5,9 @@ const Sell = () => {
   return (
     <div className="relative">
       <Image
-        className="absolute left-0 top-0 md:w-[185px]"
-        width={185}
-        height={80}
+        className="absolute left-0 top-0 md:w-[185px] md:h-20"
+        width={130}
+        height={50}
         src="/assets/images/sell/right-arrow.webp"
         alt="right-arrow"
       />
