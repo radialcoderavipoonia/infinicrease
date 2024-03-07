@@ -3,8 +3,8 @@ import React from "react";
 
 const Sell = () => {
   return (
-    <div className="relative">
-      <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute right-[15%] bottom-0"></div>
+    <div className="relative overflow-hidden">
+      <div className="w-[250px] h-[600px] bg-gradient-to-r from-[#FC1436] to-[#FFAD00] rotate-[90deg] z-10 rounded-full blur-[150px] absolute md:right-[15%] right-[50%] bottom-0"></div>
       <Image
         className="absolute left-0 top-0 translate-y-[-50%]"
         width={1440}
@@ -14,19 +14,19 @@ const Sell = () => {
       />
       <Image
         className="absolute left-0 top-0 md:w-[185px] md:h-20"
-        width={130}
-        height={50}
+        width={100}
+        height={40}
         src="/assets/images/sell/right-arrow.webp"
         alt="right-arrow"
       />
       <div className="container xl:max-w-[1136px] xl:px-0 px-3 mx-auto sm:pt-[58px] lg:pb-[214px] md:pb-24 sm:pb-16 py-12 overflow-hidden">
         <div className="grid md:grid-cols-2 grid-cols-1 items-center md:gap-4 gap-10">
-          <div className="flex flex-col">
+          <div className="flex flex-col z-10">
             <h3 className="text-cyanBlack font-Nunito font-black text-5xl md:text-start text-center leading-[110%]">
               When someone tries to ruin the pump and sell Infinicrease the{" "}
               <span className="linear_color2">Equilizer is activated</span>
             </h3>
-            <p className="text-white opacity-80 font-Montserrat font-normal text-base pt-4 md:max-w-[500px] md:text-start text-center">
+            <p className="text-white opacity-80 z-10 font-Montserrat font-normal text-base pt-4 md:max-w-[500px] md:text-start text-center">
               The Equaliser is what protects the INF token from dropping in
               value and keeps the Infinians on edge!
             </p>
