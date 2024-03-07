@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Iinfinicrease",
   description: "Infinicrease",
+  imageUrl: "/assets/images/meta/meta.png",
 };
 
 export default function RootLayout({ children }) {

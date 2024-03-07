@@ -20,7 +20,7 @@ const Tokenomics = () => {
         <div className="flex flex-wrap justify-center lg:justify-between">
           <div className="xl:w-6/12 lg:w-7/12 md:w-9/12 w-full">
             <div className="border border-gainsBoro rounded-full py-[135px] px-[120px] bg-tokenShadow bg-no-repeat bg-center relative xl:scale-100 ms:scale-90 scale-75 max-[555px]:hidden">
-              <div className=" rounded-full bg-deepCove pt-[53px] px-[62px] pb-[72px] flex flex-col items-center justify-center relative">
+              <div className=" rounded-full bg-deepCove pt-[53px] px-[42px] max-w-[310px] mx-auto pb-[72px] flex flex-col items-center justify-center relative">
                 <span className=" mb-3">
                   <Token />
                 </span>
@@ -173,7 +173,7 @@ const Tokenomics = () => {
               className=" w-full hidden max-[555px]:block relative z-10"
             />
           </div>
-          <div className=" lg:w-5/12 w-full">
+          <div className=" lg:w-5/12 w-full relative z-10 lg:text-start text-center">
             <p className="text-cyanBlack font-NoFlickingThanks font-normal text-xl mb-[6px]">
               Overview
             </p>
@@ -193,13 +193,15 @@ const Tokenomics = () => {
             <p className=" font-Montserrat font-normal md:text-base text-sm text-purpleBlue">
               The whale wallet will be a smart contract wallet, and the
               equalizer will be a bot run on a custom-built infura-like service
-              for Aptos into Binance Smart Chain. INF will be listed on all the
-              major decentralised exchanges on Binance Smart Chain. The bot will
-              be tracking prices across those decentralised exchanges and when a
-              sell order happens the bot buys the coin equivalent to $88. Also
-              when triggered by the developers (us) the equalizer enters PUMP
-              mode which means 44% of the wallet holdings are bought back into
-              the coin.
+              for Aptos into Binance Smart Chain.
+            </p>
+            <p className=" font-Montserrat font-normal md:text-base text-sm text-purpleBlue pe-4">
+              INF will be listed on all the major decentralised exchanges on
+              Binance Smart Chain. The bot will be tracking prices across those
+              decentralised exchanges and when a sell order happens the bot buys
+              the coin equivalent to $88. Also when triggered by the developers
+              (us) the equalizer enters PUMP mode which means 44% of the wallet
+              holdings are bought back into the coin.
             </p>
           </div>
         </div>
@@ -210,7 +212,9 @@ const Tokenomics = () => {
           </span>
           <div className=" tax_icon top-[-33%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold md:text-base text-sm text-white">5%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">
+                5%
+              </p>
             </div>
             <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Whale Wallet
@@ -219,7 +223,9 @@ const Tokenomics = () => {
           {/* Emergency Fund */}
           <div className=" tax_icon bottom-[-30%] start-[32%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">
+                1%
+              </p>
             </div>
             <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Emergency Fund
@@ -228,7 +234,9 @@ const Tokenomics = () => {
           {/* Genie */}
           <div className=" tax_icon bottom-[55%] end-[-55%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">
+                1%
+              </p>
             </div>
             <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Genie
@@ -237,7 +245,9 @@ const Tokenomics = () => {
           {/* Marketing Wallet */}
           <div className=" tax_icon bottom-[9%] end-[-103%]">
             <div className=" bg-taxCircle bg_100 bg-no-repeat bg-center w-[54px] h-[54px] flex items-center justify-center">
-              <p className=" font-Nunito font-bold md:text-base text-sm text-white">1%</p>
+              <p className=" font-Nunito font-bold md:text-base text-sm text-white">
+                1%
+              </p>
             </div>
             <p className=" font-Nunito font-semibold md:text-base text-sm text-white text-nowrap">
               Marketing Wallet
